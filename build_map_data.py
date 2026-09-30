@@ -141,8 +141,17 @@ def main() -> None:
     # Embed the data in the page itself so it works without fetching a second file.
     blob = json.dumps(data, separators=(",", ":")).replace("</", "<\\/")
     page = open(os.path.join(OUT_DIR, "template.html")).read().replace("__MAP_DATA__", blob)
-    with open(os.path.join(OUT_DIR, "index.html"), "w") as fh:
+    # artifact.html: body-only page for the Claude artifact viewer (it adds its own document skeleton).
+    # index.html: standalone document for GitHub Pages or opening the file directly.
+    with open(os.path.join(OUT_DIR, "artifact.html"), "w") as fh:
         fh.write(page)
+    head = ('<!doctype html>\n<html lang="en">\n<head>\n<meta charset="utf-8">\n'
+            '<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">\n')
+    title_end = page.index("</title>") + len("</title>")
+    standalone = head + page[:title_end] + "\n" + page[title_end:].replace("<style>", "<style>\nbody { margin: 0; }", 1)
+    standalone = standalone.replace("<div class=\"wrap\">", "</head>\n<body>\n<div class=\"wrap\">", 1) + "\n</body>\n</html>\n"
+    with open(os.path.join(OUT_DIR, "index.html"), "w") as fh:
+        fh.write(standalone)
     size = os.path.getsize(os.path.join(OUT_DIR, "map_data.json")) / 1e6
     print(f"{len(data['papers'])} papers, {len(data['faculty'])} faculty, "
           f"{len(data['coauthor'])} co-author pairs, {len(co_edges)} co-advising pairs, "

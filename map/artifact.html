@@ -1,15 +1,8 @@
-<!doctype html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Brown AI Research Map</title>
-
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;6..72,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
 <style>
-body { margin: 0; }
 /* Layout: a single column. Header, then the network (area as position), then areas, then the searchable paper list, then method notes. */
 :root {
   --bg: #fcfcfb;
@@ -181,8 +174,6 @@ tr:last-child td { border-bottom: 0; }
 .method ul { margin: 0; padding-left: 1.2em; display: grid; gap: 6px; }
 </style>
 
-</head>
-<body>
 <div class="wrap">
   <header style="display:grid;gap:16px">
     <p class="eyebrow">Brown University · AI and machine learning research, 2024–2026</p>
@@ -633,6 +624,3 @@ function renderTable() {
   document.querySelectorAll("#ftable .chip").forEach(b => b.onclick = () => { selectFaculty(b.dataset.fac); document.getElementById("net").scrollIntoView({ behavior: "smooth" }); });
 }
 </script>
-
-</body>
-</html>

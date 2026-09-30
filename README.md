@@ -6,7 +6,7 @@ Who works on what in AI and machine learning at Brown University, built from eve
 
 ## View the map
 
-Open `map/index.html` in a browser (download the file and double-click it; all data is embedded). It has four views:
+**Live: https://mogsa.github.io/brown-ai-map/** (or open `map/index.html` locally; all data is embedded). It has four views:
 
 - **Map of the research:** every paper placed by what its abstract says (SPECTER embeddings + UMAP), coloured by area; faculty shown at the centre of their papers. Zoom, search to highlight a topic, filter by year.
 - **Who publishes together:** faculty joined by co-authored papers (computed from author lists) and by co-advised students (confirmed on lab pages).
