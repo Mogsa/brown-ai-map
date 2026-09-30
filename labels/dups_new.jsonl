@@ -1,0 +1,12 @@
+{"a": 10000, "b": 10011, "same": true, "confidence": "medium", "why": "Same authors, same method; retitled BPJ version of Nat Commun study"}
+{"a": 10004, "b": 10023, "same": true, "confidence": "medium", "why": "Cover feature for the same ChemPhysChem article"}
+{"a": 10005, "b": 10027, "same": true, "confidence": "high", "why": "bioRxiv preprint and journal version, near-identical title"}
+{"a": 10033, "b": 10034, "same": true, "confidence": "medium", "why": "Zenodo data deposit for the same manuscript"}
+{"a": 10036, "b": 10039, "same": false, "confidence": "medium", "why": "Different formulas and problem setups; sibling papers"}
+{"a": 10036, "b": 10042, "same": false, "confidence": "high", "why": "Pareto front game approach; unrelated to Hopf control paper"}
+{"a": 10052, "b": 10054, "same": false, "confidence": "high", "why": "Commentary versus separate conformal inference methods paper"}
+{"a": 10052, "b": 10056, "same": false, "confidence": "high", "why": "Commentary versus federated meta-learning paper"}
+{"a": 10057, "b": 10068, "same": true, "confidence": "high", "why": "arXiv preprint and Biostatistics version, same roadmap"}
+{"a": 10058, "b": 10075, "same": false, "confidence": "high", "why": "Covariate adjustment method versus RCT-RWD integration considerations"}
+{"a": 10059, "b": 10073, "same": true, "confidence": "medium", "why": "Conference abstract of same congenital heart center study"}
+{"a": 10071, "b": 10072, "same": false, "confidence": "high", "why": "Different studies: gonorrhea testing versus HIV self-testing"}

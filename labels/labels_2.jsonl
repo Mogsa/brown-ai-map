@@ -1,0 +1,117 @@
+{"pid": 234, "sub": "7a", "sub2": null, "fit": "poor", "proposed": "Hamilton-Jacobi PDE theory for SciML", "is_ai": true, "attribution_ok": true, "basis": "abstract", "why": "Multitime HJ PDE theory linked to scientific ML problems"}
+{"pid": 235, "sub": "7b", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "abstract", "why": "Operator learning plus generative models for turbulent flows"}
+{"pid": 236, "sub": "7c", "sub2": "7d", "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "abstract", "why": "Matern random fields for uncertainty in finite element mechanics"}
+{"pid": 237, "sub": "2d", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "abstract", "why": "Parallelizing nonlinear state space models via predictability"}
+{"pid": 238, "sub": "2a", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "abstract", "why": "Masked image modeling representation quality in SSL"}
+{"pid": 239, "sub": "1b", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "abstract", "why": "Symbolic vs neural systems as models of cognition"}
+{"pid": 240, "sub": "5d", "sub2": null, "fit": "poor", "proposed": "Visuotactile robot perception", "is_ai": true, "attribution_ok": true, "basis": "abstract", "why": "Zero-shot visuotactile 6D pose estimation for manipulation"}
+{"pid": 241, "sub": "7b", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "abstract", "why": "Neural operator for multiscale bubble dynamics"}
+{"pid": 242, "sub": "3e", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "abstract", "why": "Probing VLMs for object state encoding"}
+{"pid": 243, "sub": "0x", "sub2": null, "fit": "good", "proposed": null, "is_ai": false, "attribution_ok": true, "basis": "abstract", "why": "Youth resilience framework for tech-facilitated abuse, not AI"}
+{"pid": 244, "sub": "3c", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "abstract", "why": "Zero-shot single-view 3D indoor scene modeling with CAD objects"}
+{"pid": 245, "sub": "3b", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "abstract", "why": "Omnidirectional SDF scene reconstruction from video"}
+{"pid": 246, "sub": "7a", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "abstract", "why": "Spectral bias in PINNs, PIKANs and neural operators"}
+{"pid": 247, "sub": "1e", "sub2": null, "fit": "poor", "proposed": "Synthetic data diversity and bias", "is_ai": true, "attribution_ok": true, "basis": "abstract", "why": "Quality-diversity sampling of generative models for synthetic training data"}
+{"pid": 248, "sub": "3d", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "abstract", "why": "Markerless dynamic hand-object contact capture"}
+{"pid": 249, "sub": "3e", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "abstract", "why": "Object representations in video-language MLLMs"}
+{"pid": 250, "sub": "1c", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "title", "why": "LLM generalization across difficulty levels; abstract only citation"}
+{"pid": 251, "sub": "7b", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "abstract", "why": "Complex-valued DeepONet for Maxwell equations"}
+{"pid": 252, "sub": "2d", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "abstract", "why": "Parallelizing MCMC across sequence length"}
+{"pid": 253, "sub": "6a", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "abstract", "why": "Human preference model assumptions in RLHF"}
+{"pid": 254, "sub": "6d", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "abstract", "why": "Deepfake scams targeting older adults"}
+{"pid": 255, "sub": "2a", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "abstract", "why": "Curriculum speeds DINOv2 self-supervised pretraining"}
+{"pid": 256, "sub": "8b", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "abstract", "why": "Transformers mimic frontostriatal gating on working memory tasks"}
+{"pid": 257, "sub": "3c", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "abstract", "why": "Dataset of synthetic 3D scenes linked to panoramas"}
+{"pid": 258, "sub": "0x", "sub2": null, "fit": "good", "proposed": null, "is_ai": false, "attribution_ok": true, "basis": "abstract", "why": "Cavitation physics, no ML"}
+{"pid": 259, "sub": "0x", "sub2": "7d", "fit": "good", "proposed": null, "is_ai": false, "attribution_ok": true, "basis": "abstract", "why": "Entropy stable numerical schemes, no ML"}
+{"pid": 260, "sub": "5e", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "abstract", "why": "Map connectivity and multi-agent pathfinding hardness"}
+{"pid": 261, "sub": "6e", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "abstract", "why": "Security protections for AI agent tools"}
+{"pid": 262, "sub": "5a", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "abstract", "why": "LLM planning and formalization under constraints"}
+{"pid": 263, "sub": "7b", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "abstract", "why": "Operator network for stiff chemical kinetics"}
+{"pid": 264, "sub": "5d", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "abstract", "why": "Video generative models as self-improving robot planners"}
+{"pid": 265, "sub": "6d", "sub2": "6b", "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "abstract", "why": "Auditing chatbots for domestic violence survivors"}
+{"pid": 266, "sub": "5b", "sub2": "5c", "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "abstract", "why": "Skill-based Bayesian network for RL curricula"}
+{"pid": 267, "sub": "6c", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "abstract", "why": "Genetic data governance policy amid AI risks"}
+{"pid": 268, "sub": "7a", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "abstract", "why": "Video-conditioned PINNs for two-phase flow"}
+{"pid": 269, "sub": "8b", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "abstract", "why": "Basal ganglia-thalamo-cortical model of adaptive learning"}
+{"pid": 270, "sub": "5b", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "abstract", "why": "Discovering parameterized skills from demonstrations"}
+{"pid": 271, "sub": "5b", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "abstract", "why": "Relevance analysis to simplify planning tasks"}
+{"pid": 272, "sub": "1b", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "abstract", "why": "Step-by-step reasoning in humans and LLMs"}
+{"pid": 273, "sub": "3a", "sub2": null, "fit": "poor", "proposed": "Controllable image and face generation", "is_ai": true, "attribution_ok": true, "basis": "abstract", "why": "Controllable 3DMM-conditioned face generation quality"}
+{"pid": 274, "sub": "6c", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "abstract", "why": "Genetic data governance policy amid AI risks"}
+{"pid": 275, "sub": "1a", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "abstract", "why": "Concept-based representational alignment across models"}
+{"pid": 276, "sub": "5e", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "abstract", "why": "Learning-enhanced control barrier function safety control"}
+{"pid": 277, "sub": "5g", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "abstract", "why": "Non-expert users specifying RL programs for robots"}
+{"pid": 278, "sub": "3c", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "abstract", "why": "Text-to-texture synthesis for procedural 3D shape families"}
+{"pid": 279, "sub": "3e", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "abstract", "why": "Object state recognition in video via state-action graph"}
+{"pid": 280, "sub": "7e", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "abstract", "why": "DeepONet-Transolver surrogate for bottle buckling mechanics"}
+{"pid": 281, "sub": "7e", "sub2": null, "fit": "poor", "proposed": "Physics-informed industrial process forecasting", "is_ai": true, "attribution_ok": true, "basis": "abstract", "why": "Process-informed time-series forecasting for lyophilization"}
+{"pid": 282, "sub": "0x", "sub2": null, "fit": "good", "proposed": null, "is_ai": false, "attribution_ok": true, "basis": "abstract", "why": "GPUDirect Storage HPC experience report, not ML method"}
+{"pid": 283, "sub": "7f", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "title", "why": "Emulator-based Antarctic sea level projections; data and code"}
+{"pid": 284, "sub": "7f", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "abstract", "why": "Neural emulator of ice sheet sea level contribution"}
+{"pid": 285, "sub": "0x", "sub2": null, "fit": "good", "proposed": null, "is_ai": false, "attribution_ok": true, "basis": "abstract", "why": "Infectious disease transmission modeling with social inequality"}
+{"pid": 286, "sub": "4a", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "abstract", "why": "Self-training LLMs for CAD program synthesis"}
+{"pid": 287, "sub": "3a", "sub2": null, "fit": "poor", "proposed": "Controllable image generation", "is_ai": true, "attribution_ok": true, "basis": "abstract", "why": "Regional control of diffusion transformers for images"}
+{"pid": 288, "sub": "0x", "sub2": null, "fit": "good", "proposed": null, "is_ai": false, "attribution_ok": true, "basis": "abstract", "why": "Turbulent wake CFD simulation framework, no ML"}
+{"pid": 289, "sub": "7a", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "abstract", "why": "PINNs for high-dimensional PDEs"}
+{"pid": 290, "sub": "7a", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "abstract", "why": "Residual-based attention weighting for PINN training"}
+{"pid": 291, "sub": "7b", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "abstract", "why": "Latent-space neural operators for real-time physical dynamics"}
+{"pid": 292, "sub": "9a", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "abstract", "why": "Zero-shot evaluation of single-cell foundation models"}
+{"pid": 293, "sub": "5a", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "abstract", "why": "Enforcing constraints on LLM robot agents"}
+{"pid": 294, "sub": "3c", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "abstract", "why": "LLM-driven text-to-3D house generation"}
+{"pid": 295, "sub": "7a", "sub2": "3e", "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "abstract", "why": "Review of physics-informed learning for computer vision"}
+{"pid": 296, "sub": "7g", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "abstract", "why": "Physics-informed gray-box identification in systems biology"}
+{"pid": 297, "sub": "1e", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "abstract", "why": "LLM prompting as labeling functions in weak supervision"}
+{"pid": 298, "sub": "7a", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "abstract", "why": "Hutchinson trace estimation for high-order PINNs"}
+{"pid": 299, "sub": "7c", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "abstract", "why": "UQ library for neural differential equations and operators"}
+{"pid": 300, "sub": "2e", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "abstract", "why": "Low-rank tensor decomposition with deep network priors"}
+{"pid": 301, "sub": "7b", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "abstract", "why": "Neural operators for Riemann problems in compressible flow"}
+{"pid": 302, "sub": "5b", "sub2": null, "fit": "poor", "proposed": "Learned motion planning", "is_ai": true, "attribution_ok": true, "basis": "abstract", "why": "Diffusion-based potential motion planning in robotics"}
+{"pid": 303, "sub": "7b", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "abstract", "why": "Transformer neural operators for low-regularity PDE solutions"}
+{"pid": 304, "sub": "7b", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "abstract", "why": "Recurrent neural operators for long-time integration"}
+{"pid": 305, "sub": "1e", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "abstract", "why": "Generating instruction tuning data for zero-shot adaptation"}
+{"pid": 306, "sub": "7a", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "abstract", "why": "Domain decomposition preconditioning for PINN training"}
+{"pid": 307, "sub": "7b", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "abstract", "why": "High-frequency scaling to mitigate neural operator spectral bias"}
+{"pid": 308, "sub": "7b", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "abstract", "why": "Neural operators plus diffusion for turbulence spectra"}
+{"pid": 309, "sub": "7e", "sub2": "7d", "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "abstract", "why": "Neural network material models for topology optimization"}
+{"pid": 310, "sub": "5c", "sub2": null, "fit": "poor", "proposed": "LLM agents for long-horizon decision-making", "is_ai": true, "attribution_ok": true, "basis": "abstract", "why": "Hierarchical LLM agents trained with environment preference optimization"}
+{"pid": 311, "sub": "7a", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "abstract", "why": "Learning dynamics and phase transitions in PINN training"}
+{"pid": 312, "sub": "5a", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "abstract", "why": "Grounding language instructions into verifiable robot specifications"}
+{"pid": 313, "sub": "3a", "sub2": null, "fit": "poor", "proposed": "Generative model architectures (GANs)", "is_ai": true, "attribution_ok": true, "basis": "abstract", "why": "Modern principled GAN baseline"}
+{"pid": 314, "sub": "7a", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "abstract", "why": "Two-stage PINN iteration for solitary wave computation"}
+{"pid": 315, "sub": "1b", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "abstract", "why": "Deep networks as theory-building tools for psychology"}
+{"pid": 316, "sub": "1a", "sub2": "1d", "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "abstract", "why": "Mechanistic analysis of multilingual factual recall failures"}
+{"pid": 317, "sub": "0x", "sub2": null, "fit": "good", "proposed": null, "is_ai": false, "attribution_ok": true, "basis": "abstract", "why": "Subthalamic DBS and impulsive actions, neuroscience review"}
+{"pid": 318, "sub": "2c", "sub2": null, "fit": "poor", "proposed": "Neural network pruning and efficiency", "is_ai": true, "attribution_ok": true, "basis": "abstract", "why": "Activity-based pruning algorithm for overparameterized networks"}
+{"pid": 319, "sub": "1b", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "abstract", "why": "LLMs as models of human analogical reasoning"}
+{"pid": 320, "sub": "7a", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "abstract", "why": "Incremental learning for PINN training"}
+{"pid": 321, "sub": "7e", "sub2": "7a", "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "abstract", "why": "PINNs for multiphase pump dynamics"}
+{"pid": 322, "sub": "1a", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "abstract", "why": "Feature transfer across LMs via residual-stream stitching and SAEs"}
+{"pid": 323, "sub": "5d", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "abstract", "why": "Adapting internet video models to new robot tasks"}
+{"pid": 324, "sub": "7b", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "abstract", "why": "Spiking network time-marching scheme for PDE integration"}
+{"pid": 325, "sub": "7g", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "abstract", "why": "Review of physics-informed ML in biomedicine"}
+{"pid": 326, "sub": "7a", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "abstract", "why": "Score-based PINNs for high-dimensional Fokker-Planck"}
+{"pid": 327, "sub": "1a", "sub2": null, "fit": "poor", "proposed": "Interpretability of non-language generative models", "is_ai": true, "attribution_ok": true, "basis": "abstract", "why": "Probing music generation models for music theory"}
+{"pid": 328, "sub": "0x", "sub2": null, "fit": "good", "proposed": null, "is_ai": false, "attribution_ok": true, "basis": "abstract", "why": "Spectral methods textbook for fractional differential equations"}
+{"pid": 329, "sub": "7e", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "abstract", "why": "Operator-infused PINN digital twin for engines"}
+{"pid": 330, "sub": "7c", "sub2": "7g", "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "abstract", "why": "Total uncertainty in physics-informed physiology reconstruction"}
+{"pid": 331, "sub": "3c", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "abstract", "why": "Single-view 3D shape retrieval under occlusion"}
+{"pid": 332, "sub": "9d", "sub2": null, "fit": "poor", "proposed": "Clinical risk prediction models", "is_ai": true, "attribution_ok": true, "basis": "abstract", "why": "Co-training model predicting severe hypoglycemia in diabetes"}
+{"pid": 333, "sub": "0x", "sub2": null, "fit": "good", "proposed": null, "is_ai": false, "attribution_ok": true, "basis": "abstract", "why": "Statistical inference on random shapes via Euler transform"}
+{"pid": 334, "sub": "7b", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "abstract", "why": "Spiking neural operators for SciML"}
+{"pid": 335, "sub": "2a", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "abstract", "why": "Library for foundation model and SSL research"}
+{"pid": 336, "sub": "3c", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "abstract", "why": "Learned edit networks for visual programs"}
+{"pid": 337, "sub": "5d", "sub2": "6a", "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "abstract", "why": "Text-aware diffusion to supply RL rewards"}
+{"pid": 338, "sub": "0x", "sub2": "7d", "fit": "good", "proposed": null, "is_ai": false, "attribution_ok": true, "basis": "abstract", "why": "Mirror-descent topology optimization, no ML"}
+{"pid": 339, "sub": "5b", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "abstract", "why": "LLM object-level plans bootstrap task and motion planning"}
+{"pid": 340, "sub": "7b", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "abstract", "why": "Neural operator meta-solvers for linear PDE systems"}
+{"pid": 341, "sub": "0x", "sub2": "4c", "fit": "good", "proposed": null, "is_ai": false, "attribution_ok": true, "basis": "abstract", "why": "Interactive patchwork design for fabric scraps, no ML"}
+{"pid": 342, "sub": "1c", "sub2": null, "fit": "poor", "proposed": "LLMs for scientific literature review", "is_ai": true, "attribution_ok": true, "basis": "abstract", "why": "Comparing ChatGPT and human scientific reviews"}
+{"pid": 343, "sub": "7b", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "abstract", "why": "Meta-solvers for time-dependent nonlinear PDEs"}
+{"pid": 344, "sub": "7b", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "abstract", "why": "Neural preconditioners in hybrid iterative PDE solvers"}
+{"pid": 345, "sub": "7f", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "abstract", "why": "ML emulators for climate models"}
+{"pid": 346, "sub": "6d", "sub2": null, "fit": "poor", "proposed": "Algorithmic modeling of labor and economic precarity", "is_ai": true, "attribution_ok": true, "basis": "abstract", "why": "Online-learning simulation of workers under unpredictable schedules"}
+{"pid": 347, "sub": "2a", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "abstract", "why": "Noise-robust self-supervised learning via data curriculum"}
+{"pid": 348, "sub": "4a", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "abstract", "why": "Gradient-based optimization of shape grammar programs"}
+{"pid": 349, "sub": "6c", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "abstract", "why": "Regulation of task-specific versus general-purpose AI"}
+{"pid": 350, "sub": "7b", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "abstract", "why": "DeepONet with LSTM for multi-resolution dynamics"}

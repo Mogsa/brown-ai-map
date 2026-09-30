@@ -1,0 +1,197 @@
+{"a": 1, "b": 393, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 3, "b": 224, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 5, "b": 901, "same": true, "confidence": "medium", "why": "Same title idea; Science policy piece, record lacks metadata"}
+{"a": 9, "b": 10, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 9, "b": 11, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 9, "b": 135, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 10, "b": 11, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 15, "b": 114, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 16, "b": 64, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 16, "b": 217, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 16, "b": 279, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 22, "b": 35, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 23, "b": 516, "same": true, "confidence": "high", "why": "Journal article and bioRxiv preprint, near-identical title"}
+{"a": 23, "b": 813, "same": true, "confidence": "medium", "why": "Biol Psychiatry abstract of same EEG phenotyping study"}
+{"a": 26, "b": 527, "same": true, "confidence": "high", "why": "Nature Comms article vs arXiv preprint, same authors/topic"}
+{"a": 31, "b": 523, "same": true, "confidence": "high", "why": "Retitled preprint of same schizophrenia sine-wave-speech study"}
+{"a": 34, "b": 198, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 34, "b": 347, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 34, "b": 475, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 34, "b": 496, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 34, "b": 635, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 34, "b": 651, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 34, "b": 721, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 34, "b": 887, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 34, "b": 888, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 34, "b": 891, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 35, "b": 812, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 37, "b": 816, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 40, "b": 131, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 40, "b": 163, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 40, "b": 288, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 40, "b": 290, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 40, "b": 668, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 40, "b": 913, "same": true, "confidence": "medium", "why": "Likely conference/abstract version of same cylinder PINN study"}
+{"a": 40, "b": 917, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 40, "b": 918, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 40, "b": 919, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 40, "b": 923, "same": true, "confidence": "medium", "why": "Same cylinder PINN study, extended title, no metadata"}
+{"a": 40, "b": 924, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 43, "b": 44, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 45, "b": 46, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 45, "b": 910, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 46, "b": 910, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 47, "b": 903, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 48, "b": 97, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 48, "b": 150, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 48, "b": 178, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 48, "b": 286, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 48, "b": 331, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 48, "b": 546, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 48, "b": 604, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 48, "b": 738, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 49, "b": 292, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 51, "b": 896, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 53, "b": 876, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 53, "b": 880, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 57, "b": 539, "same": true, "confidence": "high", "why": "Nature Electronics article vs arXiv preprint"}
+{"a": 57, "b": 870, "same": true, "confidence": "medium", "why": "Likely earlier/talk version of same sustainability-agents work"}
+{"a": 64, "b": 170, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 67, "b": 914, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 67, "b": 919, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 70, "b": 85, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 70, "b": 138, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 70, "b": 659, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 70, "b": 733, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 71, "b": 114, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 77, "b": 252, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 77, "b": 665, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 77, "b": 806, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 77, "b": 839, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 79, "b": 534, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 83, "b": 580, "same": true, "confidence": "high", "why": "Journal article vs Research Square preprint, same authors"}
+{"a": 84, "b": 131, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 84, "b": 163, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 84, "b": 205, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 84, "b": 290, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 84, "b": 668, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 84, "b": 819, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 84, "b": 837, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 84, "b": 917, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 84, "b": 918, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 84, "b": 919, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 88, "b": 301, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 88, "b": 819, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 88, "b": 926, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 88, "b": 927, "same": true, "confidence": "medium", "why": "SSRN preprint of the meta-solvers scattering paper"}
+{"a": 89, "b": 553, "same": true, "confidence": "high", "why": "Nature Comms article vs bioRxiv preprint"}
+{"a": 92, "b": 560, "same": true, "confidence": "high", "why": "Journal article vs bioRxiv preprint, same authors"}
+{"a": 95, "b": 106, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 95, "b": 131, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 95, "b": 290, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 95, "b": 668, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 95, "b": 917, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 95, "b": 918, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 95, "b": 919, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 97, "b": 178, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 97, "b": 546, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 97, "b": 738, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 104, "b": 836, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 105, "b": 559, "same": true, "confidence": "high", "why": "Journal article vs bioRxiv preprint, same study"}
+{"a": 106, "b": 131, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 106, "b": 290, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 106, "b": 668, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 106, "b": 917, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 106, "b": 918, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 106, "b": 919, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 109, "b": 131, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 109, "b": 163, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 109, "b": 290, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 109, "b": 325, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 109, "b": 395, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 109, "b": 507, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 109, "b": 668, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 109, "b": 837, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 109, "b": 917, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 109, "b": 918, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 109, "b": 919, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 115, "b": 528, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 115, "b": 555, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 115, "b": 602, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 118, "b": 874, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 119, "b": 264, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 131, "b": 162, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 131, "b": 163, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 131, "b": 179, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 131, "b": 205, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 131, "b": 215, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 131, "b": 220, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 131, "b": 246, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 131, "b": 268, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 131, "b": 289, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 131, "b": 290, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 131, "b": 295, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 131, "b": 296, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 131, "b": 298, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 131, "b": 306, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 131, "b": 314, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 131, "b": 321, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 131, "b": 325, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 131, "b": 326, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 131, "b": 329, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 131, "b": 330, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 131, "b": 355, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 131, "b": 395, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 131, "b": 399, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 131, "b": 407, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 131, "b": 410, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 131, "b": 422, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 131, "b": 477, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 131, "b": 492, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 131, "b": 507, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 131, "b": 615, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 131, "b": 616, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 131, "b": 667, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 131, "b": 668, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 131, "b": 727, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 131, "b": 744, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 131, "b": 837, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 131, "b": 846, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 131, "b": 917, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 131, "b": 918, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 131, "b": 919, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 131, "b": 928, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 131, "b": 931, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 138, "b": 659, "same": true, "confidence": "high", "why": "PLoS CB article vs preprint on Gaucher RBC"}
+{"a": 140, "b": 529, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 140, "b": 585, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 141, "b": 827, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 145, "b": 186, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 146, "b": 334, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 146, "b": 451, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 146, "b": 458, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 149, "b": 564, "same": true, "confidence": "high", "why": "Journal article vs bioRxiv preprint"}
+{"a": 150, "b": 244, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 155, "b": 819, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 158, "b": 303, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 158, "b": 329, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 158, "b": 409, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 159, "b": 874, "same": true, "confidence": "high", "why": "Vamos paper vs retitled duplicate record"}
+{"a": 162, "b": 163, "same": true, "confidence": "high", "why": "Science Advances AIVT vs arXiv version"}
+{"a": 162, "b": 205, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 162, "b": 290, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 162, "b": 492, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 162, "b": 668, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 162, "b": 913, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 162, "b": 917, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 162, "b": 919, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 162, "b": 928, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 163, "b": 205, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 163, "b": 215, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 163, "b": 246, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 163, "b": 289, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 163, "b": 290, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 163, "b": 295, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 163, "b": 298, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 163, "b": 306, "same": false, "confidence": "high", "why": "Different papers, related work"}
+{"a": 163, "b": 325, "same": false, "confidence": "high", "why": "Different papers, related work"}

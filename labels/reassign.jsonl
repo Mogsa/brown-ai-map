@@ -1,0 +1,121 @@
+{"pid": 16, "sub": "3g", "sub2": "3e", "fit": "good", "why": "Unified autoregressive image generation plus understanding"}
+{"pid": 41, "sub": "9x", "sub2": "9d", "fit": "good", "why": "LLM-generated study materials in medical education"}
+{"pid": 64, "sub": "3g", "sub2": null, "fit": "good", "why": "Autoregressive text-to-image scaling with continuous tokens"}
+{"pid": 65, "sub": "5x", "sub2": "5c", "fit": "good", "why": "RL with variable impedance control for dual-arm manipulation"}
+{"pid": 82, "sub": "6g", "sub2": null, "fit": "good", "why": "Serving system for compound LLM pipelines"}
+{"pid": 96, "sub": "9x", "sub2": "9e", "fit": "good", "why": "Perspective on generative models for cancer biology"}
+{"pid": 108, "sub": "3g", "sub2": null, "fit": "good", "why": "Instruction-based complex image editing"}
+{"pid": 119, "sub": "3g", "sub2": "2e", "fit": "good", "why": "Stabilizing self-consuming generative training loops"}
+{"pid": 122, "sub": "9e", "sub2": "9x", "fit": "good", "why": "KG path retrieval for drug repurposing and interactions"}
+{"pid": 125, "sub": "5h", "sub2": "5i", "fit": "good", "why": "Diffusion-based constrained grasp generation"}
+{"pid": 129, "sub": "2g", "sub2": null, "fit": "good", "why": "Skip connections in spiking networks"}
+{"pid": 134, "sub": "3h", "sub2": "3g", "fit": "good", "why": "Diffusion model of procedural noise textures"}
+{"pid": 137, "sub": "7x", "sub2": "2e", "fit": "good", "why": "Seismic source separation with wavelet scattering and VAE"}
+{"pid": 148, "sub": "9f", "sub2": null, "fit": "good", "why": "ECG-based sleep apnea detection"}
+{"pid": 173, "sub": "5h", "sub2": null, "fit": "good", "why": "Visuo-haptic object pose tracking"}
+{"pid": 176, "sub": "3h", "sub2": null, "fit": "good", "why": "Neural architecture on meshes via Poisson solve"}
+{"pid": 177, "sub": "2x", "sub2": "7x", "fit": "good", "why": "Automated hybrid architecture search for forecasting"}
+{"pid": 181, "sub": "8f", "sub2": "8a", "fit": "good", "why": "Monkey visual simulation behavior, fMRI and RNN"}
+{"pid": 182, "sub": "1x", "sub2": null, "fit": "good", "why": "Synthetic graded-relevance data for retriever training"}
+{"pid": 190, "sub": "7i", "sub2": "7x", "fit": "good", "why": "Learning quantum master equations from data"}
+{"pid": 197, "sub": "3h", "sub2": "3g", "fit": "good", "why": "Programmatic pattern image editing with diffusion"}
+{"pid": 198, "sub": "2x", "sub2": "2a", "fit": "good", "why": "Fin whale detection, SSL versus supervised audio"}
+{"pid": 202, "sub": "3h", "sub2": null, "fit": "good", "why": "Monte Carlo Steklov operators for geometry processing"}
+{"pid": 209, "sub": "3g", "sub2": null, "fit": "good", "why": "Geometry-based diffusion image editing"}
+{"pid": 232, "sub": "1f", "sub2": null, "fit": "good", "why": "Fourier output head for LLM distributions"}
+{"pid": 234, "sub": "7x", "sub2": "7a", "fit": "good", "why": "Hamilton-Jacobi theory linking training and optimal control"}
+{"pid": 240, "sub": "5h", "sub2": null, "fit": "good", "why": "Zero-shot visuotactile pose estimation"}
+{"pid": 247, "sub": "3g", "sub2": "6f", "fit": "good", "why": "Quality-diversity sampling for balanced synthetic data"}
+{"pid": 273, "sub": "3g", "sub2": null, "fit": "good", "why": "Controllable 3DMM face GAN quality"}
+{"pid": 281, "sub": "7x", "sub2": "7a", "fit": "good", "why": "Process-informed forecasting with KANs in manufacturing"}
+{"pid": 287, "sub": "3g", "sub2": null, "fit": "good", "why": "Region-controlled multimodal DiT image generation"}
+{"pid": 302, "sub": "5i", "sub2": "5b", "fit": "good", "why": "Learned potential-based diffusion motion planning"}
+{"pid": 310, "sub": "5x", "sub2": "5c", "fit": "good", "why": "Hierarchical LLM agents with environment preference optimization"}
+{"pid": 313, "sub": "3g", "sub2": null, "fit": "good", "why": "Modern GAN baseline with new loss"}
+{"pid": 318, "sub": "2g", "sub2": null, "fit": "good", "why": "Activity-based neural network pruning"}
+{"pid": 327, "sub": "1x", "sub2": "1a", "fit": "good", "why": "Probing music theory in music generation models"}
+{"pid": 332, "sub": "9f", "sub2": null, "fit": "good", "why": "Hypoglycemia risk prediction from EHR"}
+{"pid": 342, "sub": "1c", "sub2": null, "fit": "good", "why": "Evaluating LLM versus human scientific reviews"}
+{"pid": 346, "sub": "6x", "sub2": "6f", "fit": "good", "why": "Simulation of schedule unpredictability and financial security"}
+{"pid": 354, "sub": "2x", "sub2": null, "fit": "poor", "why": "Speech extraction; no audio code in vocabulary"}
+{"pid": 380, "sub": "6x", "sub2": "6e", "fit": "good", "why": "Uncertainty cues and trust calibration in LLM use"}
+{"pid": 404, "sub": "7i", "sub2": null, "fit": "good", "why": "Symbolic-regression identification of chaotic systems"}
+{"pid": 423, "sub": "9x", "sub2": null, "fit": "good", "why": "ChatGPT-assisted ROC analysis web tool"}
+{"pid": 435, "sub": "2f", "sub2": "9b", "fit": "good", "why": "Local and global variable importance for GP regression"}
+{"pid": 447, "sub": "3g", "sub2": null, "fit": "good", "why": "Part-level concept composition in text-to-image diffusion"}
+{"pid": 453, "sub": "6f", "sub2": null, "fit": "good", "why": "Generalization bounds for group-fair training"}
+{"pid": 456, "sub": "6x", "sub2": null, "fit": "good", "why": "Stakeholder-based AI ethics pedagogy interviews"}
+{"pid": 461, "sub": "9e", "sub2": null, "fit": "good", "why": "Toxicity and synergy in cancer drug combinations"}
+{"pid": 465, "sub": "3x", "sub2": null, "fit": "good", "why": "Multi-view multi-object tracking with PHD filtering"}
+{"pid": 473, "sub": "9e", "sub2": null, "fit": "good", "why": "Code repository for cancer combination toxicity study"}
+{"pid": 474, "sub": "2f", "sub2": "1a", "fit": "good", "why": "Vision XAI: from methods to interpretable models"}
+{"pid": 484, "sub": "8f", "sub2": "8c", "fit": "good", "why": "Learning mental versus motor actions, credit assignment"}
+{"pid": 486, "sub": "3x", "sub2": "3g", "fit": "good", "why": "Audio generation for silent egocentric video"}
+{"pid": 487, "sub": "2x", "sub2": "2g", "fit": "good", "why": "Continual learning via pruned subnetworks"}
+{"pid": 503, "sub": "9x", "sub2": "3h", "fit": "good", "why": "Probabilistic 2D/3D shape sampler for biological morphology"}
+{"pid": 509, "sub": "6f", "sub2": "6c", "fit": "good", "why": "Intervention-oriented framing of automated decision systems"}
+{"pid": 512, "sub": "6f", "sub2": "6c", "fit": "good", "why": "Integrated framework for automated decision systems"}
+{"pid": 518, "sub": "9e", "sub2": "9c", "fit": "good", "why": "ML cell-imaging signatures of ALS motor neurons"}
+{"pid": 531, "sub": "1d", "sub2": null, "fit": "good", "why": "Crosslingual reasoning via test-time scaling"}
+{"pid": 532, "sub": "1f", "sub2": null, "fit": "good", "why": "Multi-domain RLVR data mixtures for MLLMs"}
+{"pid": 535, "sub": "6g", "sub2": null, "fit": "good", "why": "Streaming and parallelism for compound AI queries"}
+{"pid": 562, "sub": "5x", "sub2": "5b", "fit": "good", "why": "Causal reasoning for creative robot tool use"}
+{"pid": 563, "sub": "6f", "sub2": null, "fit": "good", "why": "Network effects and fairness in decision-making"}
+{"pid": 566, "sub": "9e", "sub2": null, "fit": "good", "why": "Biologically annotated neural network for proteomics"}
+{"pid": 567, "sub": "9e", "sub2": null, "fit": "good", "why": "Joint histology and spatial transcriptomics representation learning"}
+{"pid": 573, "sub": "1f", "sub2": null, "fit": "good", "why": "Cost of academic-scale LLM pretraining"}
+{"pid": 575, "sub": "1a", "sub2": "1f", "fit": "good", "why": "Pretrained transformers' induction asymmetry, circuits, length generalization"}
+{"pid": 581, "sub": "9e", "sub2": null, "fit": "good", "why": "Adaptive resampling for single-cell representation learning"}
+{"pid": 583, "sub": "9x", "sub2": "3h", "fit": "good", "why": "Probabilistic alpha-shape sampler for biological shapes"}
+{"pid": 584, "sub": "3x", "sub2": "3e", "fit": "good", "why": "SAM2 adaptation for historical map segmentation"}
+{"pid": 586, "sub": "6x", "sub2": null, "fit": "good", "why": "Sense of ownership in AI-assisted tasks"}
+{"pid": 590, "sub": "9e", "sub2": null, "fit": "good", "why": "Autoregressive enhancer design from homolog sets"}
+{"pid": 601, "sub": "9e", "sub2": null, "fit": "good", "why": "Hierarchical loss for single-cell annotation"}
+{"pid": 606, "sub": "2g", "sub2": null, "fit": "good", "why": "Curriculum distillation for vision transformers"}
+{"pid": 607, "sub": "5i", "sub2": null, "fit": "good", "why": "Parameterized diffusion policies for behavior steering"}
+{"pid": 627, "sub": "5h", "sub2": null, "fit": "good", "why": "Contact localization from proprioception alone"}
+{"pid": 630, "sub": "5x", "sub2": "1f", "fit": "good", "why": "Distilling game code world model generation into small LLMs"}
+{"pid": 636, "sub": "5x", "sub2": "5h", "fit": "good", "why": "Equivariant GNN plus physics for object dynamics"}
+{"pid": 637, "sub": "3h", "sub2": "3c", "fit": "good", "why": "LLM and DSL-driven icon image editing"}
+{"pid": 642, "sub": "2x", "sub2": null, "fit": "good", "why": "Latent exploration score for VAE latent optimization"}
+{"pid": 647, "sub": "2f", "sub2": null, "fit": "good", "why": "Probabilistic explainer for graph neural networks"}
+{"pid": 651, "sub": "5h", "sub2": "2a", "fit": "good", "why": "Multimodal self-supervised robot sensor perception and dataset"}
+{"pid": 653, "sub": "9e", "sub2": "2a", "fit": "good", "why": "JEPA-style molecular representation learning"}
+{"pid": 656, "sub": "3g", "sub2": null, "fit": "good", "why": "Text and 3D control of portrait generation"}
+{"pid": 666, "sub": "9e", "sub2": "9a", "fit": "good", "why": "Singletons in protein language model training data"}
+{"pid": 669, "sub": "1f", "sub2": "1b", "fit": "good", "why": "In-context versus in-weights learning via forgetting"}
+{"pid": 677, "sub": "2x", "sub2": "2c", "fit": "good", "why": "Robustness of attention variants in ViTs"}
+{"pid": 682, "sub": "6f", "sub2": "6d", "fit": "good", "why": "Dialectal bias in Levantine Arabic hate speech data"}
+{"pid": 688, "sub": "6g", "sub2": null, "fit": "good", "why": "LLM semantic operators for streaming data"}
+{"pid": 690, "sub": "3x", "sub2": "3e", "fit": "good", "why": "Self-supervised video instance segmentation for historical maps"}
+{"pid": 693, "sub": "6f", "sub2": null, "fit": "good", "why": "Proxy race estimation for disparity measurement"}
+{"pid": 700, "sub": "1f", "sub2": null, "fit": "good", "why": "Prompt-augmented GRPO for math reasoning RL"}
+{"pid": 705, "sub": "5x", "sub2": "5c", "fit": "good", "why": "Programmatic policy synthesis for game characters"}
+{"pid": 708, "sub": "8x", "sub2": "8a", "fit": "good", "why": "Brain-inspired phase-synchrony binding in CNNs"}
+{"pid": 713, "sub": "9x", "sub2": "9b", "fit": "good", "why": "Decision trees for genotype-phenotype epistasis"}
+{"pid": 741, "sub": "7x", "sub2": "7c", "fit": "good", "why": "Simulator diversity for cosmology parameter inference"}
+{"pid": 748, "sub": "3g", "sub2": null, "fit": "good", "why": "Guided consistency-model training for image generation"}
+{"pid": 756, "sub": "1x", "sub2": "1c", "fit": "good", "why": "Dense retrieval research toolkit"}
+{"pid": 757, "sub": "1f", "sub2": "2a", "fit": "good", "why": "CLIP encoder size scaling and weight decay"}
+{"pid": 762, "sub": "5x", "sub2": "5h", "fit": "good", "why": "Learned deformable state estimation for surgical retraction"}
+{"pid": 764, "sub": "9f", "sub2": "9d", "fit": "good", "why": "Missing-modality clinical trajectory sequence modeling"}
+{"pid": 771, "sub": "2f", "sub2": null, "fit": "good", "why": "Prototype-based explainable softmax classifiers"}
+{"pid": 772, "sub": "2x", "sub2": "5c", "fit": "good", "why": "RL policy for switching optimizers"}
+{"pid": 777, "sub": "2f", "sub2": null, "fit": "good", "why": "Prototype-based XAI review for geosciences"}
+{"pid": 793, "sub": "2x", "sub2": "2d", "fit": "good", "why": "Provable continual learning without forgetting"}
+{"pid": 795, "sub": "3g", "sub2": null, "fit": "good", "why": "Post-hoc guidance for consistency models"}
+{"pid": 799, "sub": "8f", "sub2": null, "fit": "good", "why": "Human reward-predictive abstraction and transfer"}
+{"pid": 805, "sub": "2f", "sub2": null, "fit": "good", "why": "Channel-specific prototype explanations for geospatial data"}
+{"pid": 808, "sub": "9e", "sub2": null, "fit": "good", "why": "Drug synergy prediction benchmarking"}
+{"pid": 815, "sub": "3g", "sub2": "3h", "fit": "poor", "why": "Human-AI generative art; no abstract"}
+{"pid": 818, "sub": "7b", "sub2": null, "fit": "good", "why": "Physics-based neural super-resolution for PDE models"}
+{"pid": 821, "sub": "2x", "sub2": null, "fit": "poor", "why": "Flight-safety time-series dataset; no abstract"}
+{"pid": 823, "sub": "5g", "sub2": "5h", "fit": "good", "why": "Gesture for robot object search"}
+{"pid": 826, "sub": "1b", "sub2": "6x", "fit": "poor", "why": "Generative AI promise and pitfalls; no abstract"}
+{"pid": 834, "sub": "7x", "sub2": null, "fit": "good", "why": "SciML perspective"}
+{"pid": 836, "sub": "5h", "sub2": null, "fit": "good", "why": "VR teleoperation for mobile manipulation"}
+{"pid": 842, "sub": "6x", "sub2": "5f", "fit": "poor", "why": "Agent-based simulation of financial precarity; no abstract"}
+{"pid": 850, "sub": "3x", "sub2": "3b", "fit": "good", "why": "Multi-view depth estimation edge analysis"}
+{"pid": 886, "sub": "3g", "sub2": "2x", "fit": "poor", "why": "Latent exploration score for generative networks; no abstract"}
+{"pid": 910, "sub": "9e", "sub2": null, "fit": "poor", "why": "Cell-state engineering toolkit in cancer; no abstract"}
+{"pid": 920, "sub": "7x", "sub2": "7b", "fit": "poor", "why": "ML velocimetry; no abstract"}

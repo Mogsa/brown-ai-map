@@ -1,0 +1,203 @@
+faculty	title
+Serena Booth	AI Governance and Lessons Learned as an AI Policy Advisor in the United States Senate
+Serena Booth	Towards Improving Reward Design in RL: A Reward Alignment Metric for RL Practitioners
+Serena Booth	Influencing Humans to Conform to Preference Models for RLHF
+Serena Booth	Position: Strong Consumer Protection is an Inalienable Defense for AI Safety in the United States
+Serena Booth	Building Blocks for Human-AI Alignment: Specify, Inspect, Model, and Revise
+Michael Littman	The landscape of agentic reinforcement learning for llms: A survey
+Michael Littman	Memory as state abstraction over trajectories
+Michael Littman	On welfare-centric fair reinforcement learning
+Nora Ayanian	Nereus: A miniature metachronal AUV for swarm-based distributed sensing
+Nora Ayanian	Distributed Connectivity Maintenance and Recovery for Quadrotor Motion Planning
+Nora Ayanian	Multi-Agent Path Finding Among Dynamic Uncontrollable Agents with Statistical Safety Guarantees
+Nora Ayanian	Steady and Unsteady Downwash Effects in Multirotor Interactions
+Nora Ayanian	Sta-rlhf: Stackelberg aligned reinforcement learning with human feedback
+Stephen Bach	The state of multilingual llm safety research: From measuring the language gap to mitigating it
+Stephen Bach	Follow-up differential descriptions: Language models resolve ambiguities for image classification
+Yu Cheng	On the Communication Complexity of Maximum Matching and Negative-Weight Shortest Paths
+Yu Cheng	Semi-Random Noisy and One-Bit Matrix Completion via Nonconvex Optimization
+Yu Cheng	Outlier-Robust Phase Retrieval in Nearly-Linear Time
+Yu Cheng	Aggregating Quantitative Relative Judgments: From Social Choice to Ranking Prediction
+Diana Freed	Co-Constructing the Future of Digital Intimacy
+Diana Freed	Intergenerational Support for Deepfake Scams Targeting Older Adults
+Amy Greenwald	Spectral collapse drives loss of plasticity in deep continual learning
+Amy Greenwald	Dynamic thinker: Optimizing decision-time planning with costly compute
+Amy Greenwald	Sta-rlhf: Stackelberg aligned reinforcement learning with human feedback
+Deepti Raghavan	Efficient Serialization for Datacenter Applications
+Adriana Schulz	Towards autonomous sustainability assessment via multimodal AI agents
+Ellie Pavlick	Can LLMs subtract numbers?
+Ellie Pavlick	EHOP: A dataset of everyday NP-hard optimization problems
+Ellie Pavlick	Circuit component reuse across tasks in transformer language models
+Ellie Pavlick	Semantic structure-mapping in llm and human analogical reasoning
+Ellie Pavlick	Break it down: Evidence for structural compositionality in neural networks
+Ellie Pavlick	Analyzing modular approaches for visual question decomposition
+Ellie Pavlick	Emergence of abstract state representations in embodied sequence modeling
+Ellie Pavlick	Characterizing mechanisms for factual recall in language models
+Ellie Pavlick	Are language models worse than humans at following prompts? It's complicated
+Ellie Pavlick	Uncovering intermediate variables in transformers using circuit probing
+Ellie Pavlick	Instilling inductive biases with subnetworks
+Ellie Pavlick	Neurosurgeon: A toolkit for subnetwork analysis
+Ellie Pavlick	Symbols and grounding in large language models
+Ellie Pavlick	A mechanism for solving relational tasks in transformer language models
+Daniel Ritchie	Monte Carlo Steklov Operators for Large-Scale Geometry Processing in the Wild
+Daniel Ritchie	Function2Scene: 3D Indoor Scene Layout from Functional Specifications
+Daniel Ritchie	PLLM: Pseudo-Labeling Large Language Models for CAD Program Synthesis
+Daniel Ritchie	Residual primitive fitting of 3D shapes with SuperFrusta
+Daniel Ritchie	Partcomposer: Learning and composing part-level concepts from single-image examples
+Daniel Ritchie	Imperative vs. declarative programming paradigms for open-universe scene generation
+Daniel Ritchie	Pattern Analogies: Learning to Perform Programmatic Image Edits by Analogy
+Daniel Ritchie	Learning to edit visual programs with self-supervision
+Daniel Ritchie	Open-universe indoor scene generation using llm program synthesis and uncurated object databases
+Srinath Sridhar	Appearance Pointers--Multimodal Region Control of Diffusion Transformers
+Srinath Sridhar	DreamControl-v2: Simpler and Scalable Autonomous Humanoid Skills via Trainable Guided Diffusion Priors
+Chen Sun	KilometerVision: A New Frontier for Large-Scale Spatial Intelligence in VLMs
+Chen Sun	LoGeR: Long-Context Geometric Reconstruction with Hybrid Memory
+Chen Sun	DF-ExpEnse: Diffusion Filtered Exploration for Sample Efficient Finetuning
+Chen Sun	Goal Force: Teaching Video Models To Accomplish Physics-Conditioned Goals
+Chen Sun	Towards Robust Sequential Decomposition for Complex Image Editing
+Chen Sun	Self-Improving Loops for Visual Robotic Planning
+Chen Sun	MS4UI: A Dataset for Multi-modal Summarization of User Interface Instructional Videos
+Chen Sun	Motion Prompting: Controlling Video Generation with Motion Trajectories
+Chen Sun	Versatile action models (vamos) for video understanding
+Chen Sun	Solving New Tasks by Adapting Internet Video Knowledge
+Chen Sun	Fourier Head: Helping Large Language Models Learn Complex Probability Distributions
+Chen Sun	Fluid: Scaling Autoregressive Text-to-image Generative Models with Continuous Tokens
+Chen Sun	Dense Video Object Captioning from Disjoint Supervision
+Chen Sun	Unified Autoregressive Visual Generation and Understanding with Continuous Tokens
+Chen Sun	Pre-trained Vision-Language Models Learn Discoverable Visual Concepts
+Chen Sun	Do Music Generation Models Encode Music Theory?
+Chen Sun	Do Pre-trained Vision-Language Models Encode Object States?
+Chen Sun	Potential Based Diffusion Motion Planning
+Chen Sun	Text-Aware Diffusion for Policy Learning
+Chen Sun	Self-Correcting Self-Consuming Loops for Generative Model Training
+Chen Sun	Pixel Aligned Language Models
+Chen Sun	AntGPT: Can Large Language Models Help Long-term Action Anticipation from Videos?
+Chen Sun	End-to-End Spatio-Temporal Action Localisation with Video Transformers
+George Konidaris	Going Beyond State-Reaching: Learning Abstractions for Intrinsically Motivated Skill Discovery
+George Konidaris	Novaflow: Zero-shot manipulation via actionable flow from generated videos
+George Konidaris	Spectral collapse drives loss of plasticity in deep continual learning
+George Konidaris	Geometry of neural reinforcement learning in continuous state and action spaces
+George Konidaris	General value discrepancies mitigate partial observability in reinforcement learning
+George Konidaris	Memory as state abstraction over trajectories
+George Konidaris	Intrinsically motivated discovery of temporally abstract graph-based models of the world
+George Konidaris	Representation learning and skill discovery with empowerment
+George Konidaris	Learning Transferable Sub-Goals by Hypothesizing Generalizing Features
+George Konidaris	From Language to action with object-level planning
+George Konidaris	Informing reinforcement learning agents by grounding language to markov decision processes
+Randall Balestriero	The Provable Unsupervised Learning Rule Known as Batch Normalization
+Randall Balestriero	Self-supervised DXA representations encode multi-system disease risk, biological aging and heritability
+Randall Balestriero	Spectral Graph Theory: The mathematics of self-supervised learning
+Randall Balestriero	Curvature tuning: Provable training-free model steering from a single parameter
+Randall Balestriero	VGBE 2026 Challenge on Image-to-Video Consistent Generation: Methods and Results
+Randall Balestriero	Toward Pixel-Grounded World Models for Powered Descent: Arocket Landing Benchmark and Expertbaseline
+Randall Balestriero	Occam's Razor for SSL: Memory-Efficient Parametric Instance Discrimination
+Randall Balestriero	stable-pretraining-v1: Foundation Model Research Made Simple
+Randall Balestriero	Lejepa: Provable and scalable self-supervised learning without the heuristics
+Randall Balestriero	SAFE: A novel approach to AI weather evaluation through stratified assessments of forecasts over earth
+Randall Balestriero	Next Token Perception Score: Analytical Assessment of your LLM Perception Skills
+Randall Balestriero	From Linearity to Non-Linearity: How Masked Autoencoders Capture Spatial Correlations
+Randall Balestriero	Gats: A time-series dataset for addressing general aviation flight safety
+Randall Balestriero	Stress-testing offline reward-free reinforcement learning: A case for planning with latent dynamics models
+Randall Balestriero	For perception tasks: The cost of llm pretraining by next-token prediction outweigh its benefits
+Randall Balestriero	The fair language model paradox
+Randall Balestriero	ScaLES: Scalable Latent Exploration Score for Pre-Trained Generative Networks
+Randall Balestriero	The birth of self supervised learning: A supervised theory
+Randall Balestriero	A graph matching approach to balanced data sub-sampling for self-supervised learning
+Randall Balestriero	Visualizing Linear RNNs Through Unrolling
+Randall Balestriero	Anomaly Detection In The Wild: Can SSL Handle Strong Distribution Imbalances?
+Randall Balestriero	Dieting: Self-supervised learning with instance discrimination learns identifiable features
+Brendan Keith	Scientific Machine Learning: A Symbiosis
+Harini Suresh	Chatbot Evaluation Is (Sometimes) Ill-Posed: Contextualization Errors in the Human-Interface-Model Pipeline
+James Tompkin	An Omnidirectional Rasterizer for Differentiable Irradiance Rendering from 360-degree HDR RGB-D Images
+James Tompkin	GHOST in the Robot: Virtual Reality Teleoperation for Mobile Manipulation
+Stefanie Tellex	GHOST in the Robot: Virtual Reality Teleoperation for Mobile Manipulation
+Stefanie Tellex	1 Elephants Don't Write Sonnets The Grounded Turing Test for embodied AI.
+Stefanie Tellex	Beyond Task and Motion Planning: Hierarchical Robot Planning with General-Purpose Skills
+Stefanie Tellex	Generalized three dimensional multi-object search
+Stefanie Tellex	Lanmp: A language-conditioned mobile manipulation benchmark for autonomous robots
+Stefanie Tellex	Siftom: Robust spoken instruction following through theory of mind
+Stefanie Tellex	Informing reinforcement learning agents by grounding language to markov decision processes
+Stefanie Tellex	Open-vocabulary pick and place via patch-level semantic maps
+Stefanie Tellex	Find it like a dog: Using gesture to improve object search
+Suresh Venkatasubramanian	What Benchmarks Don't Measure: The Case for Evaluating Abstention Competence in Autonomous Agents
+Suresh Venkatasubramanian	Beyond Static Leaderboards: A Roadmap to Naturalistic, Functional Evaluation of LLMs
+Suresh Venkatasubramanian	Copyrighting generative AI co-creations
+Suresh Venkatasubramanian	Counting hours, counting losses: The toll of unpredictable work schedules on financial security
+Suresh Venkatasubramanian	Genetic Data Governance in Crisis: Policy Recommendations for AI Applications
+Suresh Venkatasubramanian	To pool or not to pool: Analyzing the regularizing effects of group-fair training on shared models
+Suresh Venkatasubramanian	Reflections on the AI Bill of Rights and Its Aftermath
+Suresh Venkatasubramanian	Deconstructing design decisions: Why courts must interrogate machine learning and other technologies
+Suresh Venkatasubramanian	A path for science-and evidence-based AI policy
+Pedro Felzenszwalb	Multiscale Super Resolution without Image Priors
+Pedro Felzenszwalb	Imaging with Blur: Using Motion to Enable Wide-Field Imaging at the Resolution Limit
+Pedro Felzenszwalb	Deconvolution with a box
+Thomas Serre	Structuring Sparsity: Block-Sparse Featurizers Capture Visual Concept Manifolds
+Thomas Serre	A Unifying Framework for Concept-Based Representational Similarity
+Thomas Serre	Not Too Generative, Not Too Discriminative: The Human Alignment Sweet Spot
+Thomas Serre	Capability Interpretability: Human Interpretability of Vision Foundation Models
+Thomas Serre	From Interpretability Methods to Interpretable Models
+Thomas Serre	Enhancing deep neural networks through complex-valued representations and kuramoto synchronization dynamics
+Thomas Serre	Saliency strikes back: How filtering out high frequencies improves white-box explanations
+Thomas Serre	HMAX strikes back: Self-supervised learning of human-like scale invariant representations
+Thomas Serre	Computing a human-like reaction time metric from stable recurrent vision models
+Michael J. Frank	Reliability of computational versus noncomputational metrics of working memory and episodic memory in serious mental illness.
+Michael J. Frank	The perils of omitting omissions when modeling evidence accumulation
+Michael J. Frank	Psychotic-like experiences and neurobehavioral reward processing in adolescents who use cannabis
+Michael J. Frank	The role of subcortical brain tissue iron as an indicator of dopamine neurophysiology in adolescent cannabis use
+Michael J. Frank	Adaptive learning via BG-thalamo-cortical circuitry.
+Michael J. Frank	MULTISITE EEG STUDIES IN CLINICAL POPULATIONS: RESULTS AND RECOMMENDATIONS FROM THE CNTRACS CONSORTIUM
+Michael J. Frank	A transdiagnostic study of effort-cost decision-making in psychotic and mood disorders
+Michael J. Frank	Human curriculum effects emerge with in-context learning in neural networks
+Karianne Bergen	Analyzing Carbon Capture Abilities of MOFs Using Graph Neural Networks
+Karianne Bergen	Gender Representation Among NSF-GRFP Awardees in Geoscience Disciplines
+Karianne Bergen	Machine Learning Emulator for Localized Sea Level Prediction and Forecasting
+Karianne Bergen	Spatio-temporal Reasoning using Prototype-based Explainable-AI for Geoscientific Learning Tasks
+Leo Kozachkov	Contracting Dynamics Can Be Efficiently Parallelized
+Leo Kozachkov	NRGPT: An energy-based alternative for GPT
+Leo Kozachkov	A unifying framework for parallelizing sequential models with linear dynamical systems
+Leo Kozachkov	Propofol-mediated unconsciousness disrupts progression of sensory signals through the cortical hierarchy
+Lorin Crawford	Scaling up training dataset size for transcriptomic AI models is much pain with little gain
+Lorin Crawford	Unbiased sorting and sequencing of objects via randomized gating schemes
+Lorin Crawford	Developing a toolkit for engineering and screening cell states in cancer
+George Karniadakis	A GPU-Accelerated Spectral Element Phase-Field Method for Three-Dimensional Flow Boiling Simulations
+George Karniadakis	H3PC: Hypersonic, high-order, high-performance code with adaptive mesh refinement and real chemistry
+George Karniadakis	AI-enabled cardiac shape reconstruction from routine magnetic resonance imaging
+George Karniadakis	High-resolution wind fields for operational methane monitoring at oil and gas sites
+George Karniadakis	Flow Inference and Turbulence Closure of Flow Past a Cylinder using PINNs
+George Karniadakis	Data-driven discovery of free energy function through functional derivatives
+George Karniadakis	Mechanisms of Wake Oscillations in Supersonic Flow Past Bluff Bodies
+George Karniadakis	GenAI meets Turbulence: From Super-resolution to Forecasting and Full Field Reconstruction
+George Karniadakis	Toward Autonomous Engineering Design: A Knowledge-Guided Multi-Agent Framework
+George Karniadakis	Body-Free Simulation of Three-Dimensional Turbulent Cylinder Wakes
+George Karniadakis	Methods for analyses of internal structures and defects in materials using physics-informed neural networks
+George Karniadakis	Revealing hidden fluid dynamics with physics-informed neural networks from droplet impingement experiments
+George Karniadakis	Modeling Droplet Spreading Dynamics using Physics-Informed Neural Networks
+George Karniadakis	Inferring turbulent velocity and temperature fields and their statistics from Lagrangian velocity measurements
+George Karniadakis	Leveraging Hamilton-Jacobi PDEs with time-dependent Hamiltonians for continual scientific machine learning
+George Karniadakis	Predicting velocimetry using machine learning models
+George Karniadakis	Temporal Learning Capacity of Transformers in Non-Markovian Dynamical Systems
+George Karniadakis	TransformerG2G: Adaptive time-stepping for learning temporal graph embeddings using transformers
+George Karniadakis	Deep neural operators as accurate surrogates for shape optimization
+George Karniadakis	En-DeepONet: An enrichment approach for enhancing the expressivity of neural operators with applications to seismology
+George Karniadakis	Discovering a reaction–diffusion model for Alzheimer's disease by combining PINNs with symbolic regression
+George Karniadakis	Learning stiff chemical kinetics using extended deep neural operators
+George Karniadakis	Deep neural operators can predict the real-time response of floating offshore structures under irregular waves
+George Karniadakis	Real-time prediction of gas flow dynamics in diesel engines using a deep neural operator framework
+George Karniadakis	PINNs4Drops: Convolutional feature-enhanced physics-informed neural networks for reconstructing two-phase flows
+Khemraj Shukla	H3PC: Hypersonic, high-order, high-performance code with adaptive mesh refinement and real chemistry
+Khemraj Shukla	Modeling of Sea Surface Temperature in Boston Harbor using Multi-fidelity Gaussian Process Regression
+Khemraj Shukla	Flow Inference and Turbulence Closure of Flow Past a Cylinder using PINNs and Data-Driven RANS Equations
+Khemraj Shukla	Data-driven discovery of free energy function through functional derivatives
+Khemraj Shukla	Learning Hypersonic Flow Fields from Sparse Data Using Multi-Fidelity Deep Operator Networks
+Khemraj Shukla	Body-Free Simulation of Three-Dimensional Turbulent Cylinder Wakes
+Khemraj Shukla	Deep Operator Neural Network Model Predictive Control
+Khemraj Shukla	Neural operator modeling of platelet geometry and stress in shear flow
+Khemraj Shukla	Temporal Learning Capacity of Transformers in Non-Markovian Dynamical Systems
+Khemraj Shukla	Deep neural operators as accurate surrogates for shape optimization
+Ellie Pavlick	Beyond the Doors of Perception: Vision Transformers Represent Relations Between Objects
+Daniel Ritchie	GenHSI: Controllable Generation of Human-Scene Interaction Videos
+Daniel Ritchie	GigaHands: A Massive Annotated Dataset of Bimanual Hand Activities
+Daniel Ritchie	CLIPtortionist: Zero-shot Text-driven Deformation for Manufactured 3D Shapes
+Chen Sun	$100K or 100 Days: Trade-offs when Pre-Training with Academic Resources
+George Karniadakis	Learning local-to-global flow super-resolution with generative AI
+Khemraj Shukla	Learning local-to-global flow super-resolution with generative AI

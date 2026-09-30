@@ -1,0 +1,114 @@
+{"pid": 819, "sub": "7b", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "title", "why": "Neural operator surrogates for shape optimization"}
+{"pid": 820, "sub": "2a", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "title", "why": "Memory-efficient instance-discrimination SSL"}
+{"pid": 821, "sub": "2e", "sub2": null, "fit": "poor", "proposed": "Safety-critical time-series datasets", "is_ai": true, "attribution_ok": true, "basis": "title", "why": "Time-series dataset for aviation safety ML"}
+{"pid": 822, "sub": "7e", "sub2": "7b", "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "title", "why": "Equilibrium-conserving neural operators for materials mechanics"}
+{"pid": 823, "sub": "5g", "sub2": null, "fit": "poor", "proposed": "Gesture and multimodal human-robot communication", "is_ai": true, "attribution_ok": true, "basis": "title", "why": "Gesture in human/dog object search"}
+{"pid": 824, "sub": "6d", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "title", "why": "Older adults' perceptions of AI companions"}
+{"pid": 825, "sub": "0x", "sub2": null, "fit": "good", "proposed": null, "is_ai": false, "attribution_ok": true, "basis": "title", "why": "Finite element ALE remap numerics, not ML"}
+{"pid": 826, "sub": "1b", "sub2": null, "fit": "poor", "proposed": "Generative AI in psychology and society", "is_ai": true, "attribution_ok": true, "basis": "title", "why": "Psychology perspective on generative AI"}
+{"pid": 827, "sub": "3b", "sub2": "3f", "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "title", "why": "Time-of-flight radiance fields"}
+{"pid": 828, "sub": "7g", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "title", "why": "Deep learning estimates myocardial scar stiffness"}
+{"pid": 829, "sub": "5b", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "title", "why": "Hierarchical robot planning with general-purpose skills"}
+{"pid": 830, "sub": "3b", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "title", "why": "Novel view synthesis dataset"}
+{"pid": 831, "sub": "7f", "sub2": "7b", "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "title", "why": "Neural operator bias correction for E3SM atmosphere"}
+{"pid": 832, "sub": "0x", "sub2": null, "fit": "good", "proposed": null, "is_ai": false, "attribution_ok": true, "basis": "title", "why": "FE ALE remap via interpolation/optimization, not ML"}
+{"pid": 833, "sub": "6a", "sub2": "5f", "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "title", "why": "Stackelberg-aligned RLHF"}
+{"pid": 834, "sub": "7a", "sub2": null, "fit": "poor", "proposed": "SciML foundations and perspectives", "is_ai": true, "attribution_ok": true, "basis": "title", "why": "Perspective on scientific machine learning"}
+{"pid": 835, "sub": "0x", "sub2": null, "fit": "good", "proposed": null, "is_ai": false, "attribution_ok": true, "basis": "title", "why": "Clot treatment mechanics, no AI"}
+{"pid": 836, "sub": "5d", "sub2": null, "fit": "poor", "proposed": "Teleoperation interfaces for robot data", "is_ai": true, "attribution_ok": true, "basis": "title", "why": "VR teleoperation for mobile manipulation"}
+{"pid": 837, "sub": "7a", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "title", "why": "Feature-enhanced PINNs for two-phase flows"}
+{"pid": 838, "sub": "3b", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "title", "why": "Part-based motion editing of 4D volumetric video"}
+{"pid": 839, "sub": "2d", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "title", "why": "Parallelizing contracting dynamics"}
+{"pid": 840, "sub": "7b", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "title", "why": "State-space neural operator for PDEs"}
+{"pid": 841, "sub": "5c", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "title", "why": "Fair reinforcement learning with welfare objectives"}
+{"pid": 842, "sub": "5f", "sub2": null, "fit": "poor", "proposed": "Agent-based social simulation", "is_ai": true, "attribution_ok": true, "basis": "title", "why": "Agent-based simulation of financial decision-making"}
+{"pid": 843, "sub": "8a", "sub2": "2a", "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "title", "why": "HMAX-inspired SSL of scale-invariant representations"}
+{"pid": 844, "sub": "7b", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "title", "why": "Laplace neural operator for differential equations"}
+{"pid": 845, "sub": "7b", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "title", "why": "Enriched DeepONet for seismology"}
+{"pid": 846, "sub": "7a", "sub2": "7b", "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "title", "why": "Theory of PINNs and neural operators"}
+{"pid": 847, "sub": "5f", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "title", "why": "RL/MARL environment for supply-chain negotiation"}
+{"pid": 848, "sub": "8b", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "title", "why": "Models of striatal dopamine and regret"}
+{"pid": 849, "sub": "5a", "sub2": "5b", "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "title", "why": "Language to object-level planning"}
+{"pid": 850, "sub": "3b", "sub2": null, "fit": "poor", "proposed": "Depth estimation and multi-view geometry", "is_ai": true, "attribution_ok": true, "basis": "title", "why": "Multi-view depth estimation from edges"}
+{"pid": 851, "sub": "9d", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "title", "why": "Educating medical students about AI"}
+{"pid": 852, "sub": "8a", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "title", "why": "Feature binding in biological vs artificial vision"}
+{"pid": 853, "sub": "9a", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "title", "why": "Dataset scaling for transcriptomic AI models"}
+{"pid": 854, "sub": "1b", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "title", "why": "LLMs as cognitive models"}
+{"pid": 855, "sub": "8d", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "title", "why": "Neural ratio estimation for drift diffusion model"}
+{"pid": 856, "sub": "7h", "sub2": "7g", "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "title", "why": "Agentic SciML for pharmacology model discovery"}
+{"pid": 857, "sub": "7c", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "title", "why": "Importance sampling for rare failure probabilities"}
+{"pid": 858, "sub": "9b", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "title", "why": "Epistasis in cardiac traits genetics"}
+{"pid": 859, "sub": "5c", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "title", "why": "Decision-time planning under compute cost"}
+{"pid": 860, "sub": "6c", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "title", "why": "Consumer protection as AI safety policy"}
+{"pid": 861, "sub": "3b", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "title", "why": "Novel view synthesis dataset"}
+{"pid": 862, "sub": "6a", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "title", "why": "Human-AI alignment building blocks"}
+{"pid": 863, "sub": "5c", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "title", "why": "Memory as state abstraction in RL"}
+{"pid": 864, "sub": "0x", "sub2": null, "fit": "good", "proposed": null, "is_ai": false, "attribution_ok": true, "basis": "title", "why": "Miniature AUV hardware for swarm sensing"}
+{"pid": 865, "sub": "5e", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "title", "why": "Distributed connectivity for quadrotor motion planning"}
+{"pid": 866, "sub": "0x", "sub2": null, "fit": "good", "proposed": null, "is_ai": false, "attribution_ok": true, "basis": "title", "why": "Multirotor downwash aerodynamics"}
+{"pid": 867, "sub": "2e", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "title", "why": "Robust matrix completion via nonconvex optimization"}
+{"pid": 868, "sub": "2e", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "title", "why": "Outlier-robust phase retrieval algorithm"}
+{"pid": 869, "sub": "0x", "sub2": null, "fit": "good", "proposed": null, "is_ai": false, "attribution_ok": true, "basis": "title", "why": "Datacenter serialization systems work"}
+{"pid": 870, "sub": "4b", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "title", "why": "Multimodal agents for sustainability assessment"}
+{"pid": 871, "sub": "1c", "sub2": "1b", "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "title", "why": "Dataset of everyday NP-hard problems for LLMs"}
+{"pid": 872, "sub": "1b", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "title", "why": "LLM vs human analogical reasoning"}
+{"pid": 873, "sub": "1a", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "title", "why": "Mechanism for relational tasks in transformers"}
+{"pid": 874, "sub": "3e", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "title", "why": "Action models for video understanding"}
+{"pid": 875, "sub": "5b", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "title", "why": "Abstractions for skill discovery"}
+{"pid": 876, "sub": "5c", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "title", "why": "Value discrepancies for partial observability"}
+{"pid": 877, "sub": "5b", "sub2": "2b", "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "title", "why": "Intrinsically motivated graph world models"}
+{"pid": 878, "sub": "5b", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "title", "why": "Empowerment for representation and skill discovery"}
+{"pid": 879, "sub": "5b", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "title", "why": "Learning transferable sub-goals"}
+{"pid": 880, "sub": "5a", "sub2": "5c", "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "title", "why": "Grounding language to MDPs for RL agents"}
+{"pid": 881, "sub": "2d", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "title", "why": "Batch normalization as unsupervised learning rule"}
+{"pid": 882, "sub": "3a", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "title", "why": "Image-to-video consistent generation challenge"}
+{"pid": 883, "sub": "2b", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "title", "why": "Pixel-grounded world model benchmark"}
+{"pid": 884, "sub": "2b", "sub2": "5c", "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "title", "why": "Latent dynamics planning in offline reward-free RL"}
+{"pid": 885, "sub": "2a", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "title", "why": "Next-token pretraining cost for perception"}
+{"pid": 886, "sub": "3a", "sub2": null, "fit": "poor", "proposed": "Latent-space exploration of generative models", "is_ai": true, "attribution_ok": true, "basis": "title", "why": "Latent exploration score for generative networks"}
+{"pid": 887, "sub": "2a", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "title", "why": "Supervised theory of self-supervised learning"}
+{"pid": 888, "sub": "2a", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "title", "why": "Balanced data sub-sampling for SSL"}
+{"pid": 889, "sub": "2d", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "title", "why": "Visualizing linear RNNs"}
+{"pid": 890, "sub": "2a", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "title", "why": "SSL for anomaly detection under imbalance"}
+{"pid": 891, "sub": "2a", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "title", "why": "Instance discrimination learns identifiable features"}
+{"pid": 892, "sub": "1c", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "title", "why": "Ill-posed chatbot evaluation"}
+{"pid": 893, "sub": "3b", "sub2": "3f", "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "title", "why": "Differentiable irradiance rendering from 360 images"}
+{"pid": 894, "sub": "1c", "sub2": "5d", "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "title", "why": "Grounded Turing test for embodied AI"}
+{"pid": 895, "sub": "5b", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "title", "why": "3D multi-object search planning"}
+{"pid": 896, "sub": "5d", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "title", "why": "Language-conditioned mobile manipulation benchmark"}
+{"pid": 897, "sub": "5a", "sub2": "5g", "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "title", "why": "Spoken instruction following via theory of mind"}
+{"pid": 898, "sub": "1c", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "title", "why": "Naturalistic functional LLM evaluation"}
+{"pid": 899, "sub": "6c", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "title", "why": "AI Bill of Rights reflections"}
+{"pid": 900, "sub": "6c", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "title", "why": "Courts scrutinizing ML design decisions"}
+{"pid": 901, "sub": "6c", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "title", "why": "Evidence-based AI policy"}
+{"pid": 902, "sub": "3f", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "title", "why": "Motion-blur imaging at resolution limit"}
+{"pid": 903, "sub": "0x", "sub2": null, "fit": "good", "proposed": null, "is_ai": false, "attribution_ok": true, "basis": "title", "why": "Cannabis, psychosis-like experiences, reward; no AI"}
+{"pid": 904, "sub": "0x", "sub2": null, "fit": "good", "proposed": null, "is_ai": false, "attribution_ok": true, "basis": "title", "why": "Multisite clinical EEG study recommendations"}
+{"pid": 905, "sub": "7e", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "title", "why": "Graph neural networks for MOF carbon capture"}
+{"pid": 906, "sub": "0x", "sub2": null, "fit": "good", "proposed": null, "is_ai": false, "attribution_ok": true, "basis": "title", "why": "Gender representation in fellowship awardees"}
+{"pid": 907, "sub": "7f", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "title", "why": "ML emulator for sea level forecasting"}
+{"pid": 908, "sub": "7f", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "title", "why": "Prototype explainable AI for geoscience"}
+{"pid": 909, "sub": "0x", "sub2": null, "fit": "good", "proposed": null, "is_ai": false, "attribution_ok": false, "basis": "title", "why": "Physical object sorting scheme; likely different Crawford"}
+{"pid": 910, "sub": "9a", "sub2": null, "fit": "poor", "proposed": "Computational cell-state engineering", "is_ai": true, "attribution_ok": true, "basis": "title", "why": "Toolkit for cancer cell-state screening"}
+{"pid": 911, "sub": "0x", "sub2": null, "fit": "good", "proposed": null, "is_ai": false, "attribution_ok": true, "basis": "title", "why": "GPU phase-field boiling simulation, no ML"}
+{"pid": 912, "sub": "7f", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "title", "why": "High-resolution wind fields for methane monitoring"}
+{"pid": 913, "sub": "7a", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "title", "why": "PINNs for cylinder flow turbulence closure"}
+{"pid": 914, "sub": "7e", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "title", "why": "Data-driven discovery of free energy functionals"}
+{"pid": 915, "sub": "0x", "sub2": null, "fit": "good", "proposed": null, "is_ai": false, "attribution_ok": true, "basis": "title", "why": "Fluid mechanics of supersonic wakes"}
+{"pid": 916, "sub": "7b", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "title", "why": "Generative AI for turbulence reconstruction"}
+{"pid": 917, "sub": "7e", "sub2": "7a", "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "title", "why": "PINNs for internal defects in materials"}
+{"pid": 918, "sub": "7a", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "title", "why": "PINNs for droplet impingement flow"}
+{"pid": 919, "sub": "7a", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "title", "why": "PINNs for droplet spreading"}
+{"pid": 920, "sub": "7b", "sub2": null, "fit": "poor", "proposed": "ML for experimental fluid measurements", "is_ai": true, "attribution_ok": true, "basis": "title", "why": "ML models for velocimetry prediction"}
+{"pid": 921, "sub": "7b", "sub2": "2d", "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "title", "why": "Transformer memory in non-Markovian dynamics"}
+{"pid": 922, "sub": "7c", "sub2": "7f", "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "title", "why": "Multi-fidelity GP for sea surface temperature"}
+{"pid": 923, "sub": "7a", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "title", "why": "PINNs and data-driven RANS for cylinder flow"}
+{"pid": 924, "sub": "7c", "sub2": "7b", "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "title", "why": "Multi-fidelity DeepONets for hypersonic flow"}
+{"pid": 925, "sub": "7b", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "title", "why": "Generative AI flow super-resolution"}
+{"pid": 926, "sub": "7b", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "title", "why": "Neural-operator fast solvers for scattering"}
+{"pid": 927, "sub": "7b", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "title", "why": "Neural-operator foundation meta-solvers for scattering"}
+{"pid": 928, "sub": "7a", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "title", "why": "Optimizers for PINNs and KANs"}
+{"pid": 929, "sub": "6d", "sub2": "6b", "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "title", "why": "Auditing chatbots for domestic violence survivors"}
+{"pid": 930, "sub": "6c", "sub2": null, "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "title", "why": "Predictive vs generative AI in regulation"}
+{"pid": 931, "sub": "7c", "sub2": "7a", "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "title", "why": "Uncertainty quantification for noisy PINNs/operators"}
+{"pid": 932, "sub": "6d", "sub2": "6c", "fit": "good", "proposed": null, "is_ai": true, "attribution_ok": true, "basis": "title", "why": "AgeTech misuse and abuse policy"}

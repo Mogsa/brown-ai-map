@@ -1,0 +1,626 @@
+<title>Brown AI Research Map</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;6..72,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: a single column. Header, then the network (area as position), then areas, then the searchable paper list, then method notes. */
+:root {
+  --bg: #fcfcfb;
+  --surface: #ffffff;
+  --fg: #0b0b0b;
+  --muted: #52514e;
+  --faint: #8a8984;
+  --rule: #e4e3de;
+  --grid: #efeee9;
+  --node: #52514e;
+  --node-dim: #cfcec8;
+  --accent: #2a78d6;
+  --edge-coauthor: #2a78d6;
+  --edge-coadvise: #eb6834;
+  --bar: #6da7ec;
+  --bar-hover: #2a78d6;
+  --chip: #f1f0ec;
+  /* area colours: assigned so confusable hues rarely sit next to each other on the content map */
+  --a1: #e87ba4; --a2: #1baf7a; --a3: #e34948; --a4: #8a8984; --a5: #2a78d6;
+  --a6: #008300; --a7: #eb6834; --a8: #eda100; --a9: #4a3aa7;
+  --f-display: "Newsreader", Georgia, "Times New Roman", serif;
+  --f-body: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --f-mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #1a1a19; --surface: #222220; --fg: #ffffff; --muted: #c3c2b7; --faint: #8f8e87;
+    --rule: #34332f; --grid: #2b2a27; --node: #c3c2b7; --node-dim: #45443f;
+    --accent: #3987e5; --edge-coauthor: #3987e5; --edge-coadvise: #d95926;
+    --bar: #256abf; --bar-hover: #5598e7; --chip: #2d2c29;
+    --a1: #d55181; --a2: #199e70; --a3: #e66767; --a4: #8f8e87; --a5: #3987e5;
+    --a6: #008300; --a7: #d95926; --a8: #c98500; --a9: #9085e9;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #1a1a19; --surface: #222220; --fg: #ffffff; --muted: #c3c2b7; --faint: #8f8e87;
+  --rule: #34332f; --grid: #2b2a27; --node: #c3c2b7; --node-dim: #45443f;
+  --accent: #3987e5; --edge-coauthor: #3987e5; --edge-coadvise: #d95926;
+  --bar: #256abf; --bar-hover: #5598e7; --chip: #2d2c29;
+  --a1: #d55181; --a2: #199e70; --a3: #e66767; --a4: #8f8e87; --a5: #3987e5;
+  --a6: #008300; --a7: #d95926; --a8: #c98500; --a9: #9085e9;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+
+/* Content map */
+.cmap-wrap { display: grid; grid-template-columns: minmax(0, 1fr) 280px; gap: 20px; align-items: start; }
+@media (max-width: 860px) { .cmap-wrap { grid-template-columns: 1fr; } }
+.cmap { background: var(--surface); border: 1px solid var(--rule); border-radius: 10px; position: relative; overflow: hidden; }
+.cmap svg { display: block; width: 100%; height: auto; }
+.cmap .dot { stroke: var(--surface); stroke-width: 1.2; cursor: pointer; }
+.cmap .dot.off { opacity: 0.1; }
+.cmap .dot.hit { stroke: var(--fg); stroke-width: 1.5; }
+.cmap .ray { stroke: var(--fg); stroke-opacity: 0.35; stroke-width: 0.8; pointer-events: none; }
+.cmap .fac circle { fill: var(--surface); stroke: var(--fg); stroke-width: 2; cursor: pointer; }
+.cmap .fac text { font-size: 10.5px; fill: var(--fg); font-weight: 500; paint-order: stroke; stroke: var(--surface); stroke-width: 3px; pointer-events: none; }
+.cmap .fac.off { opacity: 0.15; }
+.cmap .fac:focus-visible circle { stroke: var(--accent); stroke-width: 3; }
+.cmap .alabel { font-family: var(--f-display); font-size: 15px; font-weight: 600; fill: var(--fg); paint-order: stroke; stroke: var(--surface); stroke-width: 5px; pointer-events: none; }
+.cmap .alabel.off { opacity: 0.15; }
+.alegend { display: grid; gap: 4px; }
+.alegend button { display: grid; grid-template-columns: 12px minmax(0, 1fr) auto; gap: 8px; align-items: center; text-align: left; background: none; border: 1px solid transparent; border-radius: 6px; padding: 4px 6px; cursor: pointer; font-size: 0.85rem; }
+.alegend button:hover { border-color: var(--rule); }
+.alegend button[aria-pressed="true"] { border-color: var(--fg); background: var(--chip); }
+.alegend .sw { width: 12px; height: 12px; border-radius: 50%; }
+.alegend .n { font-family: var(--f-mono); font-size: 0.78rem; color: var(--muted); font-variant-numeric: tabular-nums; }
+.alegend .coh { grid-column: 2 / 4; font-size: 0.74rem; color: var(--muted); }
+.cmap-controls { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.cmap-controls input[type=search] { flex: 1 1 280px; min-width: 0; padding: 7px 10px; border: 1px solid var(--rule); border-radius: 6px; background: var(--surface); }
+.cmap-controls select { padding: 6px 8px; border: 1px solid var(--rule); border-radius: 6px; background: var(--surface); }
+.zoom-btns { display: inline-flex; gap: 4px; }
+.cmap svg { cursor: grab; touch-action: none; }
+.cmap svg:active { cursor: grabbing; }
+.cmap .dot, .cmap .ray, .cmap .fac circle { vector-effect: non-scaling-stroke; }
+.pick { border-top: 1px solid var(--rule); padding-top: 10px; display: grid; gap: 4px; font-size: 0.88rem; }
+.pick .ab { max-height: 9em; overflow: auto; color: var(--muted); }
+body { background: var(--bg); color: var(--fg); font-family: var(--f-body); font-size: 15px; line-height: 1.55; }
+.wrap { max-width: 1120px; margin: 0 auto; padding-inline: 20px; padding-block: 36px 72px; display: grid; gap: 48px; }
+h1, h2, h3 { font-family: var(--f-display); font-weight: 600; line-height: 1.2; margin: 0; text-wrap: balance; }
+h1 { font-size: clamp(2rem, 4.5vw, 2.8rem); }
+h2 { font-size: 1.55rem; }
+h3 { font-size: 1.1rem; }
+p { margin: 0; }
+a { color: var(--accent); }
+.prose { max-width: 70ch; }
+.muted { color: var(--muted); }
+.small { font-size: 0.85rem; }
+.eyebrow { font-family: var(--f-mono); font-size: 0.72rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
+.section { display: grid; gap: 16px; }
+.section > header { display: grid; gap: 6px; border-top: 1px solid var(--rule); padding-top: 18px; }
+.facts { display: flex; flex-wrap: wrap; gap: 8px 26px; font-family: var(--f-mono); font-size: 0.82rem; color: var(--muted); font-variant-numeric: tabular-nums; }
+.facts b { color: var(--fg); font-weight: 500; }
+.draft { border: 1px solid var(--rule); background: var(--surface); border-radius: 8px; padding: 12px 16px; font-size: 0.9rem; }
+
+/* Network */
+.net-wrap { display: grid; grid-template-columns: minmax(0, 1fr) 300px; gap: 20px; align-items: start; }
+@media (max-width: 860px) { .net-wrap { grid-template-columns: 1fr; } }
+.net { background: var(--surface); border: 1px solid var(--rule); border-radius: 10px; position: relative; overflow: hidden; }
+.net svg { display: block; width: 100%; height: auto; }
+.net .area-label { font-family: var(--f-mono); font-size: 11px; fill: var(--muted); letter-spacing: 0.02em; }
+.net .node circle { fill: var(--node); stroke: var(--surface); stroke-width: 2; cursor: pointer; }
+.net .node text { font-size: 11px; fill: var(--fg); pointer-events: none; paint-order: stroke; stroke: var(--surface); stroke-width: 3px; }
+.net .node.dim circle { fill: var(--node-dim); }
+.net .node.dim text { fill: var(--faint); }
+.net .node.sel circle { fill: var(--accent); }
+.net .node:focus-visible circle { stroke: var(--accent); stroke-width: 3; }
+.net .edge-co { stroke: var(--edge-coauthor); stroke-opacity: 0.55; fill: none; }
+.net .edge-adv { stroke: var(--edge-coadvise); stroke-opacity: 0.8; stroke-dasharray: 4 3; fill: none; stroke-width: 1.5; }
+.net .dimmed { opacity: 0.12; }
+.legend { display: flex; flex-wrap: wrap; gap: 6px 18px; font-size: 0.82rem; color: var(--muted); align-items: center; }
+.legend i { display: inline-block; width: 22px; height: 0; vertical-align: middle; margin-right: 6px; }
+.legend .l-co { border-top: 2px solid var(--edge-coauthor); }
+.legend .l-adv { border-top: 2px dashed var(--edge-coadvise); }
+.legend .l-node { width: 10px; height: 10px; border-radius: 50%; background: var(--node); border: 0; }
+.tip { position: absolute; pointer-events: none; background: var(--fg); color: var(--bg); font-size: 0.8rem; padding: 6px 9px; border-radius: 6px; max-width: 240px; line-height: 1.35; }
+.panel { background: var(--surface); border: 1px solid var(--rule); border-radius: 10px; padding: 16px; display: grid; gap: 12px; align-content: start; min-width: 0; }
+.panel h3 { font-size: 1.15rem; }
+.panel .row { display: grid; gap: 4px; }
+.panel .label { font-family: var(--f-mono); font-size: 0.7rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
+.panel ul { margin: 0; padding-left: 1.1em; display: grid; gap: 2px; font-size: 0.9rem; }
+.mini { display: grid; grid-template-columns: minmax(0, 1fr) 90px 2.5em; gap: 4px 8px; align-items: center; font-size: 0.82rem; }
+.mini .track { height: 8px; background: var(--grid); border-radius: 4px; overflow: hidden; }
+.mini .fill { height: 100%; background: var(--bar); border-radius: 0 4px 4px 0; }
+.mini .n { text-align: right; font-family: var(--f-mono); font-variant-numeric: tabular-nums; color: var(--muted); }
+button, select, input { font: inherit; color: var(--fg); }
+.btn { background: var(--chip); border: 1px solid var(--rule); border-radius: 6px; padding: 5px 10px; cursor: pointer; font-size: 0.85rem; }
+.btn:hover { border-color: var(--accent); }
+.btn:focus-visible, select:focus-visible, input:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+
+/* Areas */
+.areas { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 16px; }
+.area { background: var(--surface); border: 1px solid var(--rule); border-radius: 10px; padding: 16px; display: grid; gap: 10px; align-content: start; min-width: 0; }
+.area header { display: flex; justify-content: space-between; gap: 10px; align-items: baseline; }
+.area .count { font-family: var(--f-mono); font-size: 0.85rem; color: var(--muted); white-space: nowrap; font-variant-numeric: tabular-nums; }
+.subs { display: grid; gap: 4px; }
+.sub { display: grid; grid-template-columns: minmax(0, 1fr) 110px 2.2em; gap: 8px; align-items: center; font-size: 0.83rem; background: none; border: 0; padding: 2px 0; text-align: left; cursor: pointer; }
+.sub .name { min-width: 0; overflow-wrap: anywhere; }
+.sub .track { height: 8px; background: var(--grid); border-radius: 4px; overflow: hidden; }
+.sub .fill { height: 100%; background: var(--bar); border-radius: 0 4px 4px 0; }
+.sub:hover .fill, .sub:focus-visible .fill { background: var(--bar-hover); }
+.sub .n { text-align: right; font-family: var(--f-mono); color: var(--muted); font-variant-numeric: tabular-nums; }
+.chips { display: flex; flex-wrap: wrap; gap: 5px; }
+.chip { background: var(--chip); border-radius: 999px; padding: 1px 9px; font-size: 0.78rem; border: 0; cursor: pointer; }
+.chip:hover { color: var(--accent); }
+
+/* Explorer */
+.filters { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.filters input[type=search] { flex: 1 1 260px; min-width: 0; padding: 7px 10px; border: 1px solid var(--rule); border-radius: 6px; background: var(--surface); }
+.filters select { padding: 6px 8px; border: 1px solid var(--rule); border-radius: 6px; background: var(--surface); max-width: 100%; }
+.results-meta { font-size: 0.85rem; color: var(--muted); }
+.plist { display: grid; gap: 0; border: 1px solid var(--rule); border-radius: 10px; background: var(--surface); }
+.p { padding: 12px 16px; border-bottom: 1px solid var(--rule); display: grid; gap: 4px; min-width: 0; }
+.p:last-child { border-bottom: 0; }
+.p .t { font-weight: 500; overflow-wrap: anywhere; }
+.p .meta { font-size: 0.82rem; color: var(--muted); display: flex; flex-wrap: wrap; gap: 4px 12px; font-variant-numeric: tabular-nums; }
+.p details { font-size: 0.88rem; color: var(--muted); }
+.p summary { cursor: pointer; width: fit-content; }
+.p .ab { margin-top: 6px; max-width: 80ch; color: var(--fg); }
+.tag { font-family: var(--f-mono); font-size: 0.72rem; background: var(--chip); padding: 0 6px; border-radius: 4px; }
+
+/* Table */
+.scroll { overflow-x: auto; border: 1px solid var(--rule); border-radius: 10px; background: var(--surface); }
+table { border-collapse: collapse; width: 100%; font-size: 0.88rem; }
+th, td { padding: 7px 10px; border-bottom: 1px solid var(--rule); text-align: left; vertical-align: top; }
+th { font-family: var(--f-mono); font-size: 0.7rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); font-weight: 500; white-space: nowrap; }
+td.num { text-align: right; font-family: var(--f-mono); font-variant-numeric: tabular-nums; }
+tr:last-child td { border-bottom: 0; }
+.method ul { margin: 0; padding-left: 1.2em; display: grid; gap: 6px; }
+</style>
+
+<div class="wrap">
+  <header style="display:grid;gap:16px">
+    <p class="eyebrow">Brown University · AI and machine learning research, 2024–2026</p>
+    <h1>Brown AI Research Map</h1>
+    <p class="prose" style="font-size:1.08rem">Who works on what in AI and machine learning across Brown, built from every paper Brown AI faculty have published since January 2024. Each paper was read and assigned to a research area, and connections show faculty who publish together or co-advise students.</p>
+    <div class="facts" id="facts"></div>
+    <p class="draft prose"><b>Draft, compiled from public data by a Brown CS ScM student.</b> Paper lists come from OpenAlex, Google Scholar and Semantic Scholar, and areas were assigned by reading abstracts. There will be errors and gaps. Corrections are welcome and will be fixed.</p>
+  </header>
+
+  <section class="section" aria-labelledby="cmap-h">
+    <header>
+      <p class="eyebrow">Map of the research</p>
+      <h2 id="cmap-h">Every paper, placed by what it is about</h2>
+      <p class="muted prose">Each dot is a paper. Papers with similar abstracts sit close together, based on a language model trained on scientific papers (SPECTER). Positions come from the text alone. Colour shows the area each paper was assigned to, so where colours form clean regions, the areas match the research. Rings mark faculty, placed at the centre of their papers. Hover over a ring to see that person's papers; select an area to highlight it.</p>
+    </header>
+    <div class="cmap-controls">
+      <label for="cq" style="position:absolute;left:-9999px">Highlight papers matching</label>
+      <input type="search" id="cq" placeholder="Highlight a topic, e.g. world model, RLHF, neural operator">
+      <label for="cy" class="small muted">Year</label>
+      <select id="cy"><option value="">All years</option><option>2024</option><option>2025</option><option>2026</option></select>
+      <span class="zoom-btns" role="group" aria-label="Zoom">
+        <button class="btn" type="button" id="zin" aria-label="Zoom in">+</button>
+        <button class="btn" type="button" id="zout" aria-label="Zoom out">−</button>
+        <button class="btn" type="button" id="zreset">Reset view</button>
+      </span>
+      <span class="small muted" id="cmatch"></span>
+    </div>
+    <p class="small muted">Zoom by pinching on a trackpad, Ctrl/⌘ + scroll, double-clicking, or the + and − buttons. Drag to move around.</p>
+    <div class="cmap-wrap">
+      <div class="cmap" id="cmap"><div class="tip" id="ctip" hidden></div></div>
+      <aside class="panel">
+        <div class="alegend" id="alegend" role="group" aria-label="Areas"></div>
+        <p class="muted small">"Neighbours in same area" is the share of each paper's 10 most similar papers that share its area (chance level in brackets).</p>
+        <div class="pick" id="pick"><span class="muted">Select a dot to see the paper.</span></div>
+      </aside>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="net-h">
+    <header>
+      <p class="eyebrow">Connections</p>
+      <h2 id="net-h">Who publishes together</h2>
+      <p class="muted prose">Each dot is a faculty member, placed by where their papers fall: someone who publishes in two areas sits between them. Dot size shows number of papers since 2024. Select a person to see their areas, co-authors and papers.</p>
+    </header>
+    <div class="legend"><span><i class="l-node"></i>faculty member</span><span><i class="l-co"></i>co-authored papers (thicker = more)</span><span><i class="l-adv"></i>co-advised students (confirmed current)</span></div>
+    <div class="net-wrap">
+      <div class="net" id="net"><div class="tip" id="tip" hidden></div></div>
+      <aside class="panel" id="panel" aria-live="polite">
+        <p class="muted small">Select a faculty member in the network or the table below.</p>
+      </aside>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="areas-h">
+    <header>
+      <p class="eyebrow">Areas</p>
+      <h2 id="areas-h">Nine research areas</h2>
+      <p class="muted prose">Bars show how many papers fall in each sub-direction. Select a sub-direction or a name to list its papers below.</p>
+    </header>
+    <div class="areas" id="areas"></div>
+  </section>
+
+  <section class="section" aria-labelledby="papers-h" id="papers">
+    <header>
+      <p class="eyebrow">Papers</p>
+      <h2 id="papers-h">Search the papers</h2>
+    </header>
+    <div class="filters">
+      <label class="small muted" for="q" style="position:absolute;left:-9999px">Search</label>
+      <input type="search" id="q" placeholder="Search titles and abstracts, e.g. world model, RLHF, neural operator">
+      <label for="f-area" class="small muted">Area</label><select id="f-area"></select>
+      <label for="f-fac" class="small muted">Faculty</label><select id="f-fac"></select>
+      <label for="f-year" class="small muted">Year</label><select id="f-year"><option value="">All</option><option>2024</option><option>2025</option><option>2026</option></select>
+      <label for="f-sort" class="small muted">Sort</label><select id="f-sort"><option value="cpm">Citations per month</option><option value="new">Newest</option><option value="cites">Total citations</option></select>
+      <button class="btn" id="reset" type="button">Clear</button>
+    </div>
+    <p class="results-meta" id="meta"></p>
+    <div class="plist" id="plist"></div>
+    <button class="btn" id="more" type="button" style="justify-self:start">Show more</button>
+  </section>
+
+  <section class="section" aria-labelledby="table-h">
+    <header>
+      <p class="eyebrow">Faculty</p>
+      <h2 id="table-h">Faculty table</h2>
+    </header>
+    <div class="scroll"><table id="ftable"><thead><tr><th>Name</th><th>Department</th><th class="num">Papers</th><th>Main area</th><th>Brown co-authors</th><th>Co-advising with</th></tr></thead><tbody></tbody></table></div>
+  </section>
+
+  <section class="section method" aria-labelledby="method-h">
+    <header>
+      <p class="eyebrow">Method</p>
+      <h2 id="method-h">How this was made: what is computed, what is judged</h2>
+      <p class="muted prose">Every fact points to a public source. Where a step needs judgement, the table says who made it and how it was checked. The full method, scripts and logs are in METHODOLOGY.md.</p>
+    </header>
+    <div class="scroll"><table>
+      <thead><tr><th>What you see</th><th>Source</th><th>How it's decided</th><th>How it's checked</th></tr></thead>
+      <tbody>
+        <tr><td>Faculty included</td><td>Department faculty pages</td><td>Proposed by a model, each inclusion confirmed by the compiler</td><td>A second independent crawl found no missing core AI faculty</td></tr>
+        <tr><td>Papers</td><td>OpenAlex, completed from Google Scholar, looked up on Semantic Scholar</td><td><b>Computed</b>: everything dated 2024 onward; reviews, errata and front matter removed</td><td>Google Scholar lists compared for 30 of 35 faculty</td></tr>
+        <tr><td>Who wrote each paper</td><td>Author lists</td><td><b>Computed</b>: a faculty tag is kept only if the name is in the author list</td><td>50 random papers checked by hand: 50/50 correct</td></tr>
+        <tr><td>Citations</td><td>OpenAlex and Semantic Scholar</td><td><b>Computed</b>: the higher of the two counts</td><td>Spot checks</td></tr>
+        <tr><td>Lines between faculty</td><td>Author lists</td><td><b>Computed</b>: one line per pair of faculty on the same paper; each line lists its papers</td><td>Every line can be opened to its papers</td></tr>
+        <tr><td>Duplicate versions merged</td><td>Titles, authors, abstracts</td><td>Candidates <b>computed</b>; each pair <b>judged by a model</b></td><td>Audit: duplicates fell from 14% to about 2%</td></tr>
+        <tr><td>Area of each paper</td><td>Abstract (title only where marked)</td><td><b>Judged by a model</b> choosing from a fixed list of 9 areas and 71 sub-directions (including an "other" in each area)</td><td>Audit: about 6% wrong or debatable. Independent text test: every area clusters 5–14× above chance</td></tr>
+        <tr><td>Map positions</td><td>Titles and abstracts</td><td><b>Computed</b> by a scientific-text model (SPECTER) and UMAP, fixed seed</td><td>Reproducible</td></tr>
+        <tr><td>Students and postdocs</td><td>Lab pages</td><td>Read from the page; <b>never inferred from co-authorship</b></td><td>"Confirmed" means lab page plus an independent source (department directory or own site), checked 30 Sep 2026; others are marked "not re-confirmed"</td></tr>
+        <tr><td>Co-authors outside Brown</td><td>Author lists and OpenAlex affiliations</td><td><b>Computed</b>: co-authors not known to be at Brown, counted by paper</td><td>Affiliations exist for about 57% of papers, so institution counts are partial</td></tr>
+      </tbody>
+    </table></div>
+    <ul class="prose">
+      <li><b>Scope.</b> Current Brown faculty whose research is mainly AI/ML, and papers whose version of record is dated 1 January 2024 or later (up to 29 September 2026).</li>
+      <li><b>Known gaps.</b> Workshop papers and very new preprints are most likely to be missing. The five faculty added in September 2026 haven't had the Google Scholar check yet. Recent papers have had little time to be cited. Lab pages go stale: several listed students had graduated or left.</li>
+      <li><b>The areas are one reasonable division, not the only one.</b> They were tested against the papers, but a different grouping would also be defensible.</li>
+      <li><b>No comparison with the wider field yet.</b> A fair comparison would run Brown's papers and a sample of global papers through the same classifier.</li>
+    </ul>
+  </section>
+</div>
+
+<script id="map-data" type="application/json">__MAP_DATA__</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+<script>
+const PAGE = 40;
+const S = { q: "", area: "", fac: "", year: "", sort: "cpm", sub: "", pair: null, shown: PAGE, sel: null };
+let D, byName, coauthorsOf, coadviseOf;
+
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;"}[c]));
+const areaName = a => D.areas[a] || "";
+
+Promise.resolve().then(() => JSON.parse(document.getElementById("map-data").textContent)).then(data => {
+  if (!window.d3) throw new Error("the chart library (d3) didn't load");
+  D = data;
+  byName = Object.fromEntries(D.faculty.map(f => [f.id, f]));
+  coauthorsOf = {}; coadviseOf = {};
+  D.coauthor.forEach(e => { (coauthorsOf[e.s] ??= []).push([e.t, e.papers]); (coauthorsOf[e.t] ??= []).push([e.s, e.papers]); });
+  D.coadvise.forEach(e => { (coadviseOf[e.s] ??= []).push([e.t, e.students]); (coadviseOf[e.t] ??= []).push([e.s, e.students]); });
+  renderFacts(); renderContentMap(); renderNetwork(); renderAreas(); renderFilters(); renderPapers(); renderTable();
+}).catch(err => {
+  const msg = `<p class="p">The map couldn't be drawn: ${esc(err.message)}. Reload the page to try again.</p>`;
+  document.getElementById("cmap").insertAdjacentHTML("beforeend", msg);
+  document.getElementById("plist").innerHTML = msg;
+});
+
+function renderFacts() {
+  const withPapers = D.faculty.filter(f => f.n > 0).length;
+  const students = D.students.filter(s => s.level === "confirmed").length;
+  document.getElementById("facts").innerHTML = [
+    `<span><b>${D.papers.length}</b> AI/ML papers, 2024–26</span>`,
+    `<span><b>${withPapers}</b> faculty with papers in the data</span>`,
+    `<span><b>${D.coauthor.length}</b> faculty pairs who co-author</span>`,
+    `<span><b>${students}</b> students and postdocs confirmed current</span>`
+  ].join("");
+}
+
+/* ---------- content map: position from text, colour from area ---------- */
+function renderContentMap() {
+  const W = 820, H = 640, PAD = 28;
+  const pts = D.papers.filter(p => p.xy);
+  const X = x => PAD + x * (W - 2 * PAD), Y = y => PAD + (1 - y) * (H - 2 * PAD);
+  const col = a => `var(--a${a})`;
+  const median = arr => { const s = [...arr].sort((a, b) => a - b); return s[Math.floor(s.length / 2)]; };
+  const coh = Object.fromEntries(D.coherence.map(r => [r.area, r]));
+  let areaSel = null, facHover = null;
+
+  const svg = d3.select("#cmap").append("svg").attr("viewBox", `0 0 ${W} ${H}`).attr("role", "img")
+    .attr("aria-label", "Scatter map of Brown AI papers placed by abstract similarity and coloured by area; the paper list below has the same data");
+  const view = svg.append("g");
+  const gRay = view.append("g");
+  const dots = view.append("g").selectAll("circle").data(pts).join("circle").attr("class", "dot")
+    .attr("cx", p => X(p.xy[0])).attr("cy", p => Y(p.xy[1])).attr("r", p => 3 + Math.min(4, Math.sqrt(p.cpm) * 1.6))
+    .attr("fill", p => col(p.s[0]));
+  const baseR = p => 3 + Math.min(4, Math.sqrt(p.cpm) * 1.6);
+  let T = d3.zoomIdentity, query = "", year = "";
+
+  // Label each area at its densest paper: the one whose 6th-nearest same-area paper is closest.
+  const densest = ps => {
+    const k = Math.min(6, ps.length - 1);
+    let best = ps[0], bestD = Infinity;
+    for (const p of ps) {
+      const d = ps.map(q => Math.hypot(p.xy[0] - q.xy[0], p.xy[1] - q.xy[1])).sort((u, v) => u - v)[k];
+      if (d < bestD) { bestD = d; best = p; }
+    }
+    return best;
+  };
+  const areaPts = {};
+  pts.forEach(p => (areaPts[p.s[0]] ??= []).push(p));
+  const labels = view.append("g").selectAll("text").data(Object.keys(areaPts)).join("text").attr("class", "alabel")
+    .attr("text-anchor", "middle")
+    .attr("x", a => X(densest(areaPts[a]).xy[0]))
+    .attr("y", a => Math.max(16, Y(densest(areaPts[a]).xy[1]) - 14))
+    .text(a => D.areas[a].split(/[:,&]/)[0].trim());
+
+  const facs = D.faculty.filter(f => f.n > 0).map(f => {
+    const mine = pts.filter(p => p.f.includes(f.id));
+    return mine.length ? { ...f, mine, x: X(median(mine.map(p => p.xy[0]))), y: Y(median(mine.map(p => p.xy[1]))) } : null;
+  }).filter(Boolean);
+  const gF = view.append("g").selectAll("g").data(facs).join("g").attr("class", "fac").attr("tabindex", 0).attr("role", "button")
+    .attr("aria-label", f => `${f.id}: ${f.mine.length} papers on the map`)
+    .attr("transform", f => `translate(${f.x},${f.y})`);
+  gF.append("circle").attr("r", 5.5);
+  gF.append("text").attr("x", 8).attr("dy", "0.35em").text(f => f.id.split(" ").slice(-1)[0]);
+
+  const tip = document.getElementById("ctip");
+  const showTip = (html, x, y) => {
+    const box = document.getElementById("cmap").getBoundingClientRect(), s = box.width / W;
+    tip.hidden = false; tip.innerHTML = html;
+    tip.style.left = Math.min(T.applyX(x) * s + 12, box.width - 250) + "px"; tip.style.top = (T.applyY(y) * s + 12) + "px";
+  };
+  const matches = p => (!year || String(p.y) === year) && (!query || (p.t + " " + p.ab).toLowerCase().includes(query));
+  const restyle = () => {
+    dots.classed("off", p => (areaSel && p.s[0] !== areaSel) || (facHover && !p.f.includes(facHover)) || !matches(p))
+        .classed("hit", p => facHover && p.f.includes(facHover));
+    labels.classed("off", a => areaSel && a !== areaSel);
+    gF.classed("off", f => (areaSel && f.area !== areaSel) || (facHover && f.id !== facHover));
+    gRay.selectAll("line").data(facHover ? facs.find(f => f.id === facHover).mine.map(p => [facs.find(f => f.id === facHover), p]) : [])
+      .join("line").attr("class", "ray").attr("x1", d => d[0].x).attr("y1", d => d[0].y)
+      .attr("x2", d => X(d[1].xy[0])).attr("y2", d => Y(d[1].xy[1]));
+  };
+
+  dots.on("mouseenter", (ev, p) => showTip(`<b>${esc(p.t)}</b><br>${esc(p.f.join(", "))} · ${p.y ?? ""}<br>${esc(D.subs[p.s] || "")}`, X(p.xy[0]), Y(p.xy[1])))
+      .on("mouseleave", () => { tip.hidden = true; })
+      .on("click", (ev, p) => pickPaper(p));
+  gF.on("mouseenter focus", (ev, f) => { facHover = f.id; restyle(); showTip(`<b>${esc(f.id)}</b><br>${f.mine.length} papers`, f.x, f.y); })
+    .on("mouseleave blur", () => { facHover = null; restyle(); tip.hidden = true; })
+    .on("click", (ev, f) => { selectFaculty(f.id); document.getElementById("net").scrollIntoView({ behavior: "smooth" }); })
+    .on("keydown", (ev, f) => { if (ev.key === "Enter") selectFaculty(f.id); });
+
+  const zoom = d3.zoom().scaleExtent([1, 12]).translateExtent([[0, 0], [W, H]])
+    .filter(ev => !ev.button && (ev.type !== "wheel" || ev.ctrlKey || ev.metaKey))
+    .on("zoom", ev => {
+      T = ev.transform; const k = T.k;
+      view.attr("transform", T);
+      dots.attr("r", p => baseR(p) / Math.sqrt(k));
+      gF.select("circle").attr("r", 5.5 / k);
+      gF.select("text").attr("x", 8 / k).style("font-size", `${10.5 / k}px`).style("stroke-width", `${3 / k}px`);
+      labels.style("font-size", `${15 / k}px`).style("stroke-width", `${5 / k}px`);
+      tip.hidden = true;
+    });
+  svg.call(zoom);
+  document.getElementById("zin").onclick = () => svg.transition().duration(250).call(zoom.scaleBy, 1.6);
+  document.getElementById("zout").onclick = () => svg.transition().duration(250).call(zoom.scaleBy, 1 / 1.6);
+  document.getElementById("zreset").onclick = () => svg.transition().duration(300).call(zoom.transform, d3.zoomIdentity);
+  const refilter = () => {
+    restyle();
+    const n = (query || year) ? pts.filter(matches).length : null;
+    document.getElementById("cmatch").textContent = n === null ? "" : `${n} of ${pts.length} papers highlighted`;
+  };
+  document.getElementById("cq").addEventListener("input", e => { query = e.target.value.trim().toLowerCase(); refilter(); });
+  document.getElementById("cy").addEventListener("input", e => { year = e.target.value; refilter(); });
+
+  const counts = Object.fromEntries(Object.entries(areaPts).map(([a, v]) => [a, v.length]));
+  const leg = document.getElementById("alegend");
+  leg.innerHTML = Object.entries(D.areas).map(([a, name]) => `
+    <button type="button" data-a="${a}" aria-pressed="false"><span class="sw" style="background:${col(a)}"></span><span>${esc(name)}</span><span class="n">${counts[a] || 0}</span>
+      ${coh[a] ? `<span class="coh">${Math.round(coh[a].neighbours_same_area * 100)}% neighbours in same area (${Math.round(coh[a].chance * 100)}%)</span>` : ""}</button>`).join("");
+  leg.querySelectorAll("button").forEach(b => b.onclick = () => {
+    areaSel = areaSel === b.dataset.a ? null : b.dataset.a;
+    leg.querySelectorAll("button").forEach(x => x.setAttribute("aria-pressed", String(x.dataset.a === areaSel)));
+    restyle();
+  });
+
+  function pickPaper(p) {
+    document.getElementById("pick").innerHTML = `
+      <b>${p.doi ? `<a href="https://doi.org/${esc(p.doi)}" target="_blank" rel="noopener">${esc(p.t)}</a>` : esc(p.t)}</b>
+      <span class="muted">${esc(p.f.join(", "))} · ${p.y ?? ""} · ${p.c} citations</span>
+      <span class="muted">${esc(D.subs[p.s] || "")}</span>
+      ${p.ab ? `<p class="ab">${esc(p.ab)}</p>` : ""}`;
+  }
+}
+
+/* ---------- network: area as position ---------- */
+function renderNetwork() {
+  const W = 760, H = 620, cx = W / 2, cy = H / 2, R = 235;
+  const keys = Object.keys(D.areas);
+  const anchor = Object.fromEntries(keys.map((k, i) => {
+    const ang = -Math.PI / 2 + i * 2 * Math.PI / keys.length;
+    return [k, { x: cx + R * Math.cos(ang), y: cy + R * Math.sin(ang), ang }];
+  }));
+  const nodes = D.faculty.filter(f => f.n > 0).map(f => {
+    const tot = Object.values(f.areas).reduce((a, b) => a + b, 0);
+    let x = 0, y = 0;
+    for (const [a, n] of Object.entries(f.areas)) { if (anchor[a]) { x += anchor[a].x * n / tot; y += anchor[a].y * n / tot; } }
+    return { ...f, tx: x, ty: y, x, y, r: 5 + 2.2 * Math.sqrt(f.n) };
+  });
+  const byId = Object.fromEntries(nodes.map(n => [n.id, n]));
+  const links = D.coauthor.filter(e => byId[e.s] && byId[e.t]).map(e => ({ source: e.s, target: e.t, papers: e.papers }));
+  const adv = D.coadvise.filter(e => byId[e.s] && byId[e.t]);
+
+  const sim = d3.forceSimulation(nodes)
+    .force("x", d3.forceX(d => d.tx).strength(0.35))
+    .force("y", d3.forceY(d => d.ty).strength(0.35))
+    .force("collide", d3.forceCollide(d => d.r + 3).iterations(3))
+    .force("link", d3.forceLink(links).id(d => d.id).strength(0.02))
+    .stop();
+  for (let i = 0; i < 300; i++) sim.tick();
+  nodes.forEach(n => { n.x = Math.max(n.r + 4, Math.min(W - n.r - 4, n.x)); n.y = Math.max(n.r + 4, Math.min(H - n.r - 4, n.y)); });
+
+  const svg = d3.select("#net").append("svg").attr("viewBox", `0 0 ${W} ${H}`).attr("role", "img")
+    .attr("aria-label", "Network of Brown AI faculty placed by research area; details in the faculty table below");
+  const labelR = R + 48;
+  svg.append("g").selectAll("text").data(keys).join("text").attr("class", "area-label")
+    .attr("x", k => cx + labelR * Math.cos(anchor[k].ang)).attr("y", k => cy + labelR * Math.sin(anchor[k].ang))
+    .attr("text-anchor", k => { const c = Math.cos(anchor[k].ang); return c > 0.3 ? "start" : c < -0.3 ? "end" : "middle"; })
+    .attr("dominant-baseline", "middle")
+    .each(function (k) {
+      const el = d3.select(this);
+      const lines = []; let cur = "";
+      D.areas[k].split(" ").forEach(w => { if ((cur + " " + w).trim().length > 24) { lines.push(cur.trim()); cur = w; } else cur += " " + w; });
+      lines.push(cur.trim());
+      lines.forEach((l, i) => el.append("tspan").attr("x", el.attr("x")).attr("dy", i === 0 ? `${-(lines.length - 1) * 0.6}em` : "1.2em").text(l));
+    });
+
+  const gE = svg.append("g");
+  const eCo = gE.selectAll("line.edge-co").data(links).join("line").attr("class", "edge-co")
+    .attr("x1", d => d.source.x).attr("y1", d => d.source.y).attr("x2", d => d.target.x).attr("y2", d => d.target.y)
+    .attr("stroke-width", d => Math.min(1 + Math.sqrt(d.papers) * 1.1, 7));
+  const eAdv = gE.selectAll("path.edge-adv").data(adv).join("path").attr("class", "edge-adv")
+    .attr("d", d => { const a = byId[d.s], b = byId[d.t]; const mx = (a.x + b.x) / 2 + (b.y - a.y) * 0.12, my = (a.y + b.y) / 2 - (b.x - a.x) * 0.12; return `M${a.x},${a.y} Q${mx},${my} ${b.x},${b.y}`; });
+
+  const tip = document.getElementById("tip");
+  const gN = svg.append("g").selectAll("g").data(nodes).join("g").attr("class", "node")
+    .attr("transform", d => `translate(${d.x},${d.y})`).attr("tabindex", 0).attr("role", "button")
+    .attr("aria-label", d => `${d.id}, ${d.n} papers`);
+  gN.append("circle").attr("r", d => d.r);
+  gN.append("text").attr("x", d => d.r + 4).attr("dy", "0.35em").text(d => d.id.split(" ").slice(-1)[0]);
+  gN.on("mouseenter", (ev, d) => {
+      tip.hidden = false;
+      tip.innerHTML = `<b>${esc(d.id)}</b><br>${d.n} papers · mainly ${esc(areaName(d.area))}`;
+      const box = document.getElementById("net").getBoundingClientRect(), s = box.width / W;
+      tip.style.left = Math.min(d.x * s + 12, box.width - 250) + "px"; tip.style.top = (d.y * s + 12) + "px";
+    })
+    .on("mouseleave", () => { tip.hidden = true; })
+    .on("click", (ev, d) => selectFaculty(d.id))
+    .on("keydown", (ev, d) => { if (ev.key === "Enter" || ev.key === " ") { ev.preventDefault(); selectFaculty(d.id); } });
+
+  window.highlightNetwork = name => {
+    const near = new Set([name, ...(coauthorsOf[name] || []).map(x => x[0]), ...(coadviseOf[name] || []).map(x => x[0])]);
+    gN.classed("sel", d => d.id === name).classed("dim", d => name && !near.has(d.id));
+    eCo.classed("dimmed", d => name && d.source.id !== name && d.target.id !== name);
+    eAdv.classed("dimmed", d => name && d.s !== name && d.t !== name);
+  };
+}
+
+function selectFaculty(name) {
+  S.sel = name;
+  const f = byName[name];
+  window.highlightNetwork?.(name);
+  const areas = Object.entries(f.areas).sort((a, b) => b[1] - a[1]);
+  const max = Math.max(1, ...areas.map(a => a[1]));
+  const co = (coauthorsOf[name] || []).sort((a, b) => b[1] - a[1]);
+  const adv = coadviseOf[name] || [];
+  const mine = D.students.filter(s => s.advisors.includes(name));
+  const conf = mine.filter(s => s.level === "confirmed"), listed = mine.filter(s => s.level === "listed");
+  const cb = D.collab[name];
+  const link = (u, t) => u ? `<a href="${esc(u)}" target="_blank" rel="noopener">${t}</a>` : "";
+  const studentLine = s => `<li>${esc(s.name)}${s.role && s.role !== "unknown" ? ` (${esc(s.role)})` : ""} · ${link(s.src, "lab page")}${s.ev && s.ev !== s.src ? " · " + link(s.ev, "source") : ""}${s.ev2 ? " · " + link(s.ev2, "source 2") : ""}</li>`;
+  document.getElementById("panel").innerHTML = `
+    <h3>${esc(name)}</h3>
+    <p class="muted small">${esc(f.dept)}${f.affiliate ? " · affiliate" : ""}${f.url ? ` · ${link(f.url, "website")}` : ""}</p>
+    <div class="row"><span class="label">${f.n} AI/ML papers since 2024, by area</span>
+      <div class="mini">${areas.map(([a, n]) => `<span>${esc(areaName(a))}</span><span class="track"><span class="fill" style="display:block;width:${100 * n / max}%"></span></span><span class="n">${n}</span>`).join("") || '<span class="muted">No AI/ML papers in the data</span>'}</div></div>
+    <div class="row"><span class="label">Brown faculty co-authors (computed from author lists)</span>${co.length ? `<ul>${co.map(([n, k]) => `<li>${esc(n)}: <button class="btn" type="button" data-pair="${esc(n)}" style="padding:1px 7px">${k} joint paper${k > 1 ? "s" : ""}</button></li>`).join("")}</ul>` : '<span class="muted small">None in this data</span>'}</div>
+    ${cb ? `<div class="row"><span class="label">Frequent co-authors not known to be at Brown</span>
+      <p class="small">${cb.top_coauthors_not_known_at_brown.slice(0, 6).map(([n, k]) => `${esc(n)} (${k})`).join(", ") || "None"}</p>
+      ${cb.top_institutions.length ? `<p class="small muted">Institutions: ${cb.top_institutions.slice(0, 5).map(([n, k]) => `${esc(n)} (${k})`).join(", ")}${cb.companies.length ? `. Companies: ${cb.companies.slice(0, 4).map(([n]) => esc(n)).join(", ")}` : ""}.</p>` : ""}
+      <p class="small muted">Affiliations are recorded on ${cb.papers_with_affiliations} of ${cb.papers} papers, so institution counts are partial.</p></div>` : ""}
+    ${adv.length ? `<div class="row"><span class="label">Co-advises confirmed students with</span><ul>${adv.map(([n, s]) => `<li>${esc(n)}: ${s.map(esc).join(", ")}</li>`).join("")}</ul></div>` : ""}
+    <div class="row"><span class="label">Students and postdocs, confirmed (${conf.length})</span>${conf.length ? `<ul>${conf.map(studentLine).join("")}</ul><span class="small muted">On the lab page and an independent source (department directory or own site), checked ${esc(conf[0].checked || "")}.</span>` : '<span class="muted small">None confirmed</span>'}</div>
+    ${listed.length ? `<div class="row"><span class="label">Listed on lab page, not re-confirmed (${listed.length})</span><ul>${listed.map(studentLine).join("")}</ul></div>` : ""}
+    <div style="display:flex;gap:8px;flex-wrap:wrap"><button class="btn" type="button" id="see-papers">List all ${f.n} papers</button><button class="btn" type="button" id="clear-sel">Clear selection</button></div>`;
+  const toPapers = patch => { setFilter(patch); document.getElementById("papers").scrollIntoView({ behavior: "smooth" }); };
+  document.getElementById("see-papers").onclick = () => toPapers({ fac: name, area: "", sub: "", pair: null });
+  document.querySelectorAll("#panel [data-pair]").forEach(b => b.onclick = () => toPapers({ pair: [name, b.dataset.pair], fac: "", area: "", sub: "" }));
+  document.getElementById("clear-sel").onclick = () => { S.sel = null; window.highlightNetwork?.(null); document.getElementById("panel").innerHTML = '<p class="muted small">Select a faculty member in the network or the table below.</p>'; };
+}
+
+/* ---------- areas ---------- */
+function renderAreas() {
+  const bySub = {}, facByArea = {};
+  D.papers.forEach(p => { bySub[p.s] = (bySub[p.s] || 0) + 1; });
+  D.faculty.forEach(f => { if (f.area) (facByArea[f.area] ??= []).push(f.id); });
+  const max = Math.max(...Object.values(bySub));
+  document.getElementById("areas").innerHTML = Object.entries(D.areas).map(([a, name]) => {
+    const subs = Object.entries(D.subs).filter(([c]) => c[0] === a && bySub[c]).sort((x, y) => bySub[y[0]] - bySub[x[0]]);
+    const total = subs.reduce((s, [c]) => s + bySub[c], 0);
+    return `<article class="area">
+      <header><h3>${esc(name)}</h3><span class="count">${total} papers</span></header>
+      <div class="subs">${subs.map(([c, n]) => `<button class="sub" type="button" data-sub="${c}" title="List papers in: ${esc(n)}"><span class="name">${esc(n)}</span><span class="track"><span class="fill" style="display:block;width:${100 * bySub[c] / max}%"></span></span><span class="n">${bySub[c]}</span></button>`).join("")}</div>
+      <div class="chips">${(facByArea[a] || []).sort().map(f => `<button class="chip" type="button" data-fac="${esc(f)}">${esc(f)}</button>`).join("")}</div>
+      <p class="muted small">Names show whose papers are mostly in this area. Others may publish here too.</p>
+    </article>`;
+  }).join("");
+  document.querySelectorAll("#areas .sub").forEach(b => b.onclick = () => { setFilter({ sub: b.dataset.sub, area: "", fac: "" }); document.getElementById("papers").scrollIntoView({ behavior: "smooth" }); });
+  document.querySelectorAll("#areas .chip").forEach(b => b.onclick = () => selectFaculty(b.dataset.fac));
+}
+
+/* ---------- explorer ---------- */
+function renderFilters() {
+  document.getElementById("f-area").innerHTML = `<option value="">All</option>` + Object.entries(D.areas).map(([a, n]) => `<option value="${a}">${esc(n)}</option>`).join("");
+  document.getElementById("f-fac").innerHTML = `<option value="">All</option>` + D.faculty.filter(f => f.n).map(f => f.id).sort().map(n => `<option>${esc(n)}</option>`).join("");
+  const bind = (id, key) => document.getElementById(id).addEventListener("input", e => setFilter({ [key]: e.target.value, ...(key !== "q" && key !== "sort" && key !== "year" ? { sub: "" } : {}) }));
+  bind("q", "q"); bind("f-area", "area"); bind("f-fac", "fac"); bind("f-year", "year"); bind("f-sort", "sort");
+  document.getElementById("reset").onclick = () => setFilter({ q: "", area: "", fac: "", year: "", sub: "", pair: null });
+  document.getElementById("more").onclick = () => { S.shown += PAGE; renderPapers(); };
+}
+
+function setFilter(patch) {
+  Object.assign(S, patch, { shown: PAGE });
+  document.getElementById("q").value = S.q; document.getElementById("f-area").value = S.area;
+  document.getElementById("f-fac").value = S.fac; document.getElementById("f-year").value = S.year; document.getElementById("f-sort").value = S.sort;
+  renderPapers();
+}
+
+function filtered() {
+  const q = S.q.trim().toLowerCase();
+  let ps = D.papers.filter(p =>
+    (!S.area || p.s[0] === S.area) && (!S.sub || p.s === S.sub || p.s2 === S.sub) &&
+    (!S.fac || p.f.includes(S.fac)) && (!S.year || String(p.y) === S.year) &&
+    (!S.pair || (p.f.includes(S.pair[0]) && p.f.includes(S.pair[1]))) &&
+    (!q || (p.t + " " + p.ab + " " + p.a).toLowerCase().includes(q)));
+  const key = { cpm: p => -p.cpm, new: p => -(p.y * 10000 + p.id / 1e4), cites: p => -p.c }[S.sort];
+  return ps.sort((a, b) => key(a) - key(b));
+}
+
+function renderPapers() {
+  const ps = filtered();
+  const subLabel = (S.sub ? ` in “${esc(D.subs[S.sub])}”` : "") + (S.pair ? ` co-authored by ${esc(S.pair[0])} and ${esc(S.pair[1])}` : "");
+  document.getElementById("meta").innerHTML = `${ps.length} papers${subLabel}` + ((S.sub || S.pair) ? ` · <button class="btn" type="button" id="clear-sub">Clear this filter</button>` : "");
+  document.getElementById("clear-sub")?.addEventListener("click", () => setFilter({ sub: "", pair: null }));
+  document.getElementById("plist").innerHTML = ps.slice(0, S.shown).map(p => `
+    <article class="p">
+      <div class="t">${p.doi ? `<a href="https://doi.org/${esc(p.doi)}" target="_blank" rel="noopener">${esc(p.t)}</a>` : esc(p.t)}</div>
+      <div class="meta"><span>${p.f.map(esc).join(", ")}</span><span>${p.y ?? ""}</span>${p.v ? `<span>${esc(p.v)}</span>` : ""}<span>${p.c} citations</span>${p.oa ? `<a href="https://openalex.org/${esc(p.oa)}" target="_blank" rel="noopener">OpenAlex record</a>` : ""}</div>
+      <div class="meta"><span>Area: ${esc(D.subs[p.s] || "")}</span><span class="tag" title="${esc(p.why || "")}">${p.tb ? "assigned from title only" : "assigned by reading the abstract"}</span></div>
+      ${p.ab ? `<details><summary>Abstract and authors</summary><p class="ab">${esc(p.ab)}</p><p class="small" style="margin-top:4px">${esc(p.a)}</p></details>` : `<p class="small muted">${esc(p.a)}</p>`}
+    </article>`).join("") || `<p class="p muted">No papers match. Try a broader search or select Clear.</p>`;
+  document.getElementById("more").hidden = ps.length <= S.shown;
+}
+
+/* ---------- table ---------- */
+function renderTable() {
+  const rows = [...D.faculty].sort((a, b) => a.id.localeCompare(b.id));
+  document.querySelector("#ftable tbody").innerHTML = rows.map(f => `
+    <tr><td><button class="chip" type="button" data-fac="${esc(f.id)}">${esc(f.id)}</button>${f.affiliate ? ' <span class="tag">affiliate</span>' : ""}</td>
+      <td>${esc(f.dept)}</td><td class="num">${f.n || "–"}</td><td>${f.area ? esc(areaName(f.area)) : '<span class="muted">papers pending</span>'}</td>
+      <td>${(coauthorsOf[f.id] || []).map(x => esc(x[0].split(" ").slice(-1)[0])).join(", ") || '<span class="muted">–</span>'}</td>
+      <td>${(coadviseOf[f.id] || []).map(x => esc(x[0].split(" ").slice(-1)[0])).join(", ") || '<span class="muted">–</span>'}</td></tr>`).join("");
+  document.querySelectorAll("#ftable .chip").forEach(b => b.onclick = () => { selectFaculty(b.dataset.fac); document.getElementById("net").scrollIntoView({ behavior: "smooth" }); });
+}
+</script>

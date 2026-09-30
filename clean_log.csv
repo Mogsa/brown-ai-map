@@ -1,0 +1,63 @@
+action,title,detail
+abstract_added,ModTrack: Sensor-Agnostic Multi-view Tracking via Identity-Informed PHD Filtering with Covariance Propagation,
+abstract_added,General Methods Make Great Domain-Specific Foundation Models: A Case-Study on Fetal Ultrasound,
+abstract_added,UniBench: Visual Reasoning Requires Rethinking Vision-Language Beyond Scaling,
+abstract_added,Mitigating Partial Observability in Sequential Decision Processes via the Lambda Discrepancy,
+abstract_added,Deform360: A Massive Multi-view Visuotactile Dataset for Deformable World Models,
+abstract_added,Learning Parameterized Skills from Demonstrations,
+abstract_added,Talking Heads: Understanding Inter-Layer Communication in Transformer Language Models,
+abstract_added,Whither symbols in the era of advanced neural networks?,
+abstract_added,Paths Not Taken: Understanding and Mending the Multilingual Factual Recall Pipeline,
+abstract_added,R3DS: Reality-Linked 3D Scenes for Panoramic Scene Understanding,
+abstract_added,AnyHome: Open-Vocabulary Generation of Structured and Textured 3D Homes,
+abstract_added,UMO: Unified In-Context Learning Unlocks Motion Foundation Model Priors,
+abstract_added,Vamos: Versatile Action Models for Video Understanding,
+abstract_added,Evidence-Backed Video Question Answering,
+abstract_added,Using Large Language Models to Promote Health Equity,
+abstract_added,The GAN is dead; long live the GAN! A Modern GAN Baseline,
+abstract_added,"Anchored, Not Graded: Vision-Language Models Fail at Slant-from-Texture Perception",
+abstract_added,Better artificial intelligence does not mean better models of biology,
+abstract_added,Understanding Visual Feature Reliance through the Lens of Complexity,
+abstract_added,A comprehensive and FAIR comparison between MLP and KAN representations for differential equations and operator networks,
+abstract_added,Correcting model misspecification in physics-informed neural networks (PINNs),
+abstract_added,ViTO: Vision Transformer-Operator,
+abstract_added,Transformers as neural operators for solutions of differential equations with finite regularity,
+abstract_added,AI-Lorenz: A physics-data-driven framework for Black-Box and Gray-Box identification of chaotic systems with symbolic regression,
+abstract_added,CMINNs: Compartment model informed neural networks — Unlocking drug dynamics,
+abstract_added,Red blood cell passage through deformable interendothelial slits in the spleen: Insights into splenic filtration and hemodynamics,
+abstract_added,Bridging scales in multiscale bubble growth dynamics with correlated fluctuations using neural operator learning,
+abstract_added,SympGNNs: Symplectic Graph Neural Networks for identifying high-dimensional Hamiltonian systems and node classification,
+abstract_added,SMS: Spiking marching scheme for efficient long time integration of differential equations,
+abstract_added,Tackling the Curse of Dimensionality in Fractional and Tempered Fractional Pdes with Physics-Informed Neural Networks,
+abstract_added,Neurosem: A Hybrid Framework for Simulating Multiphysics Problems by Coupling Pinns and Spectral Elements,
+abstract_added,PI-SONet: A Physics-Informed Symplectic Operator Network for Real-Time Optimal Control of Multi-Agent Systems,
+abstract_added,Predicting crack nucleation and propagation in brittle materials using Deep Operator Networks with diverse trunk architectures,
+abstract_added,Operator learning for reconstructing flow fields from sparse measurements: An energy transformer approach,
+abstract_added,State-space models are accurate and efficient neural operators for dynamical systems,
+abstract_added,Curvature-aware optimization for high-accuracy physics-informed neural networks,
+abstract_added,Spectral bias in physics-informed and operator learning: Analysis and mitigation guidelines,
+abstract_added,Probabilistic predictions of process-induced deformation in carbon/epoxy composites using a Deep Operator Network,
+abstract_added,High order entropy stable schemes for the quasi-one-dimensional shallow water and compressible Euler equations,
+abstract_added,$Pinn - a Domain Decomposition Method for Bayesian Physics-Informed Neural Networks,
+abstract_added,DynAMO: Multi-agent reinforcement learning for dynamic anticipatory mesh optimization with applications to hyperbolic conservation laws,
+abstract_added,Predictability Enables Parallelization of Nonlinear State Space Models,
+merged,lnccbrown/HSSM: v0.4.0,lnccbrown/HSSM: 0.4.1
+merged,Characterization and Inverse Design of Stochastic Mechanical Metamaterials Using Neural Operators (Adv. Mater. 29/2025),Characterization and Inverse Design of Stochastic Mechanical Metamaterials Using Neural Operators
+merged,lnccbrown/HSSM: 0.3.0,lnccbrown/HSSM: v0.5.0
+merged,"Code and Data for ""Learning Turbulent Flows with Generative Models for Super Resolution and Sparse Flow Reconstruction""",Learning turbulent flows with generative models for super resolution and sparse flow reconstruction
+merged,"Data and code for ""Centimeter-scale nanomechanical resonators with low dissipation""",Centimeter-scale nanomechanical resonators with low dissipation
+merged,Abstract 1422: Characterizing clinical toxicity in cancer combination therapies.,Characterizing clinical toxicity in cancer combination therapies
+merged,An expert guide to planning experimental tasks for evidence accumulation modelling,An Expert Guide to Planning Experimental Tasks For Evidence-Accumulation Modeling
+merged,stable-worldmodel-v1: Reproducible World Modeling Research and Evaluation,stable-worldmodel: A Platform for Reproducible World Modeling Research and Evaluation
+merged,"Learning Turbulent Flows with Generative Models: Super-resolution, Forecasting, and Sparse Flow Reconstruction",Learning turbulent flows with generative models for super resolution and sparse flow reconstruction
+merged,Structural causal influence (SCI) captures the forces of social inequality in models of disease dynamics,Structural causal influence captures the forces of social inequality in models of infectious disease
+merged,PINNs4Drops: Video-conditioned physics-informed neural networks for two-phase flow reconstruction,PINNs4Drops: Video-conditioned physics-informed neural networks for two-phase flow reconstruction (Research Data)
+merged,ISEFlow v1.0: A Flow-Based Neural Network Emulator for Improved Sea Level Projections and Uncertainty Quantification,"Code for ""ISEFlow: A Flow-Based Neural Network Emulator for Improved Sea Level Projections and Uncertainty Quantification"""
+merged,ISEFlow: A Flow-Based Neural Network Emulator for Improved Sea Level Projections and Uncertainty Quantification,"Code for ""ISEFlow: A Flow-Based Neural Network Emulator for Improved Sea Level Projections and Uncertainty Quantification"""
+merged,Integrating Neural Operators with Diffusion Models Improves Spectral Representation in Turbulence Modeling,Integrating neural operators with diffusion models improves spectral representation in turbulence modelling
+merged,OCD As Aberrant Integration of Uncertainty from Local Goals to Global Goals,OCD Compulsions as Aberrant Integration of Uncertainty from Local Goals to Global Goals
+merged,KKANs: Kurkova-Kolmogorov-Arnold Networks and Their Learning Dynamics,KKANs: Kurková-Kolmogorov-Arnold networks and their learning dynamics
+merged,SympGNNs: Symplectic Graph Neural Networks for identifiying high-dimensional Hamiltonian systems and node classification,SympGNNs: Symplectic Graph Neural Networks for identifying high-dimensional Hamiltonian systems and node classification
+merged,DeepVIVONet: Using deep neural operators to optimize the location of sensors with application to vortex-induced vibrations,DeepVIVONet: Using deep neural operators to optimize sensor locations with application to vortex-induced vibrations
+merged,Addendum: DeepSeek vs. ChatGPT vs. Claude: A comparative study for scientific computing and scientific machine learning tasks,DeepSeek vs. ChatGPT vs. Claude: A comparative study for scientific computing and scientific machine learning tasks
+merged,Inception UNet (IUNet) and Multi-scale Multi-branch (M&M) UNet Plug-In Neural Operators for Online Bias Correction in E3SM,Inception UNet (IUNet) and multi-scale multi-branch (M&M) UNet plug-in neural operators for online bias correction in E3SM atmosphere model

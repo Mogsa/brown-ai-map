@@ -1,0 +1,2423 @@
+{
+ "Adriana Schulz": {
+  "papers": 12,
+  "papers_with_affiliations": 10,
+  "top_coauthors_not_known_at_brown": [
+   [
+    "Wojciech Matusik",
+    4
+   ],
+   [
+    "Liane Makatura",
+    3
+   ],
+   [
+    "Michael Foshey",
+    3
+   ],
+   [
+    "Bohan Wang",
+    3
+   ],
+   [
+    "Pingchuan Ma",
+    3
+   ],
+   [
+    "Bolei Deng",
+    3
+   ],
+   [
+    "Megan Tjandrasuwita",
+    3
+   ],
+   [
+    "Andrew Spielberg",
+    3
+   ]
+  ],
+  "top_institutions": [
+   [
+    "Massachusetts Institute of Technology",
+    5
+   ],
+   [
+    "University of Washington",
+    4
+   ],
+   [
+    "Harvard University",
+    3
+   ],
+   [
+    "MIT Computer Science and Artificial Intelligence Laboratory",
+    2
+   ],
+   [
+    "Northeastern University",
+    2
+   ],
+   [
+    "University of Notre Dame",
+    2
+   ],
+   [
+    "Nvidia (United States)",
+    2
+   ],
+   [
+    "The University of Texas at Austin",
+    1
+   ]
+  ],
+  "companies": [
+   [
+    "Nvidia (United States)",
+    2
+   ]
+  ]
+ },
+ "Amy Greenwald": {
+  "papers": 19,
+  "papers_with_affiliations": 7,
+  "top_coauthors_not_known_at_brown": [
+   [
+    "Sadie Zhao",
+    3
+   ],
+   [
+    "Kai Wang",
+    3
+   ],
+   [
+    "Tyrone Serapio",
+    2
+   ],
+   [
+    "Michael P. Wellman",
+    2
+   ],
+   [
+    "Haifeng Xu",
+    2
+   ],
+   [
+    "Gerardo Riaño‐Briceño",
+    2
+   ],
+   [
+    "Naicheng He",
+    1
+   ],
+   [
+    "Kaicheng Guo",
+    1
+   ]
+  ],
+  "top_institutions": [
+   [
+    "University of Michigan",
+    2
+   ],
+   [
+    "Duke University",
+    1
+   ],
+   [
+    "New York University",
+    1
+   ],
+   [
+    "IBM Research - Haifa",
+    1
+   ],
+   [
+    "University of British Columbia",
+    1
+   ],
+   [
+    "University of Chicago",
+    1
+   ],
+   [
+    "IBM Research - Tokyo",
+    1
+   ],
+   [
+    "Carnegie Mellon University",
+    1
+   ]
+  ],
+  "companies": [
+   [
+    "Google DeepMind (United Kingdom)",
+    1
+   ],
+   [
+    "IBM (United States)",
+    1
+   ],
+   [
+    "NEC (Japan)",
+    1
+   ]
+  ]
+ },
+ "Brenda Rubenstein": {
+  "papers": 42,
+  "papers_with_affiliations": 40,
+  "top_coauthors_not_known_at_brown": [
+   [
+    "David C. Dalgarno",
+    4
+   ],
+   [
+    "Patrick J. Barry",
+    3
+   ],
+   [
+    "Shan Yan",
+    3
+   ],
+   [
+    "Xiao Tong",
+    3
+   ],
+   [
+    "Amy C. Marschilok",
+    3
+   ],
+   [
+    "Kenneth J. Takeuchi",
+    3
+   ],
+   [
+    "Esther S. Takeuchi",
+    3
+   ],
+   [
+    "Jaron T. Krogel",
+    3
+   ]
+  ],
+  "top_institutions": [
+   [
+    "Oak Ridge National Laboratory",
+    5
+   ],
+   [
+    "Brookhaven National Laboratory",
+    4
+   ],
+   [
+    "Brooke",
+    3
+   ],
+   [
+    "Brooks Sports, Inc. (United States)",
+    3
+   ],
+   [
+    "Center for Functional Nanomaterials",
+    3
+   ],
+   [
+    "Argonne National Laboratory",
+    3
+   ],
+   [
+    "University of California, Riverside",
+    2
+   ],
+   [
+    "Plaksha University",
+    2
+   ]
+  ],
+  "companies": [
+   [
+    "Brooks Sports, Inc. (United States)",
+    3
+   ],
+   [
+    "Qubit Pharmaceuticals",
+    1
+   ]
+  ]
+ },
+ "Brendan Keith": {
+  "papers": 8,
+  "papers_with_affiliations": 6,
+  "top_coauthors_not_known_at_brown": [
+   [
+    "Socratis Petrides",
+    3
+   ],
+   [
+    "Tarik Dzanic",
+    1
+   ],
+   [
+    "Ketan Mittal",
+    1
+   ],
+   [
+    "Jun Jie Yang",
+    1
+   ],
+   [
+    "Robert W. Anderson",
+    1
+   ],
+   [
+    "Peter Sentz",
+    1
+   ],
+   [
+    "Yujin Cho",
+    1
+   ],
+   [
+    "Sohail R. Reddy",
+    1
+   ]
+  ],
+  "top_institutions": [
+   [
+    "Lawrence Livermore National Laboratory",
+    4
+   ],
+   [
+    "Emory University",
+    1
+   ],
+   [
+    "European Organization for Nuclear Research",
+    1
+   ],
+   [
+    "Technical University of Munich",
+    1
+   ],
+   [
+    "National Laboratory of the Rockies",
+    1
+   ],
+   [
+    "Simula Research Laboratory",
+    1
+   ]
+  ],
+  "companies": []
+ },
+ "Chen Sun": {
+  "papers": 31,
+  "papers_with_affiliations": 13,
+  "top_coauthors_not_known_at_brown": [
+   [
+    "Deqing Sun",
+    4
+   ],
+   [
+    "Charles Herrmann",
+    3
+   ],
+   [
+    "Michael Rubinstein",
+    3
+   ],
+   [
+    "Daksh Aggarwal",
+    3
+   ],
+   [
+    "Yilun Du",
+    3
+   ],
+   [
+    "Lijie Fan",
+    2
+   ],
+   [
+    "Siyang Qin",
+    2
+   ],
+   [
+    "Tianhong Li",
+    2
+   ]
+  ],
+  "top_institutions": [
+   [
+    "Samsung (South Korea)",
+    2
+   ],
+   [
+    "Honda Research Institute, USA",
+    2
+   ],
+   [
+    "Salesforce (United States)",
+    1
+   ],
+   [
+    "Google (United States)",
+    1
+   ],
+   [
+    "Honda (United States)",
+    1
+   ],
+   [
+    "University of Massachusetts Amherst",
+    1
+   ],
+   [
+    "Google DeepMind (United Kingdom)",
+    1
+   ],
+   [
+    "Samsung Electronics (South Korea)",
+    1
+   ]
+  ],
+  "companies": [
+   [
+    "Google (United States)",
+    1
+   ],
+   [
+    "Google DeepMind (United Kingdom)",
+    1
+   ]
+  ]
+ },
+ "Daniel Ritchie": {
+  "papers": 27,
+  "papers_with_affiliations": 10,
+  "top_coauthors_not_known_at_brown": [
+   [
+    "R. K. Jones",
+    7
+   ],
+   [
+    "Angel X. Chang",
+    6
+   ],
+   [
+    "Manolis Savva",
+    5
+   ],
+   [
+    "Rio Aguina-Kang",
+    3
+   ],
+   [
+    "D. Han",
+    3
+   ],
+   [
+    "Stewart Morris",
+    3
+   ],
+   [
+    "Seung Jean Yoo",
+    3
+   ],
+   [
+    "Thibault Groueix",
+    3
+   ]
+  ],
+  "top_institutions": [
+   [
+    "Simon Fraser University",
+    3
+   ],
+   [
+    "Adobe Systems (United States)",
+    2
+   ],
+   [
+    "Université de Montréal",
+    2
+   ],
+   [
+    "Alberta Machine Intelligence Institute",
+    2
+   ],
+   [
+    "Christian-Albrechts-Universität zu Kiel",
+    1
+   ],
+   [
+    "Centre Inria d'Université Côte d'Azur",
+    1
+   ],
+   [
+    "University of Basilicata",
+    1
+   ],
+   [
+    "Mila - Quebec Artificial Intelligence Institute",
+    1
+   ]
+  ],
+  "companies": [
+   [
+    "Adobe Systems (United States)",
+    2
+   ]
+  ]
+ },
+ "Deepti Raghavan": {
+  "papers": 6,
+  "papers_with_affiliations": 3,
+  "top_coauthors_not_known_at_brown": [
+   [
+    "Keshav Santhanam",
+    2
+   ],
+   [
+    "Muhammad Shahir Rahman",
+    2
+   ],
+   [
+    "Pratiksha Thaker",
+    2
+   ],
+   [
+    "Philip A. Levis",
+    2
+   ],
+   [
+    "Matei Zaharia",
+    2
+   ],
+   [
+    "Thejas Venkatesh",
+    1
+   ],
+   [
+    "Neha Kunjal",
+    1
+   ],
+   [
+    "Modugula, Nayani",
+    1
+   ]
+  ],
+  "top_institutions": [
+   [
+    "Carnegie Mellon University",
+    1
+   ],
+   [
+    "University of California, Berkeley",
+    1
+   ],
+   [
+    "Stanford University",
+    1
+   ]
+  ],
+  "companies": []
+ },
+ "Diana Freed": {
+  "papers": 8,
+  "papers_with_affiliations": 5,
+  "top_coauthors_not_known_at_brown": [
+   [
+    "Karina LaRubbio",
+    2
+   ],
+   [
+    "Malcolm Grba",
+    2
+   ],
+   [
+    "Chris Geeng",
+    1
+   ],
+   [
+    "Lucy Qin",
+    1
+   ],
+   [
+    "Allison McDonald",
+    1
+   ],
+   [
+    "Amna Batool",
+    1
+   ],
+   [
+    "Oliver L. Haimson",
+    1
+   ],
+   [
+    "J. Hutson",
+    1
+   ]
+  ],
+  "top_institutions": [
+   [
+    "University of Maryland, College Park",
+    2
+   ],
+   [
+    "University of St. Thomas - Minnesota",
+    1
+   ],
+   [
+    "Newcastle University",
+    1
+   ],
+   [
+    "University of Toronto",
+    1
+   ],
+   [
+    "Colorado School of Mines",
+    1
+   ],
+   [
+    "University of Washington",
+    1
+   ],
+   [
+    "University of Würzburg",
+    1
+   ],
+   [
+    "University of Chicago",
+    1
+   ]
+  ],
+  "companies": []
+ },
+ "Drew Linsley": {
+  "papers": 6,
+  "papers_with_affiliations": 6,
+  "top_coauthors_not_known_at_brown": [
+   [
+    "Daryoush Saeed‐Vafa",
+    1
+   ],
+   [
+    "Farah K Khalil",
+    1
+   ],
+   [
+    "Katherine L. Lovinger",
+    1
+   ],
+   [
+    "Lester Li",
+    1
+   ],
+   [
+    "Howard T. McLeod",
+    1
+   ],
+   [
+    "Pinyuan Feng",
+    1
+   ],
+   [
+    "Julia Kaye",
+    1
+   ],
+   [
+    "Naufa Amirani",
+    1
+   ]
+  ],
+  "top_institutions": [
+   [
+    "University of Rochester",
+    1
+   ],
+   [
+    "Moffitt Cancer Center",
+    1
+   ],
+   [
+    "Columbia University",
+    1
+   ],
+   [
+    "Genentech",
+    1
+   ],
+   [
+    "Gladstone Institutes",
+    1
+   ],
+   [
+    "Taube Koret Center",
+    1
+   ],
+   [
+    "University of California, San Francisco",
+    1
+   ],
+   [
+    "University of California, Irvine",
+    1
+   ]
+  ],
+  "companies": [
+   [
+    "Genentech",
+    1
+   ]
+  ]
+ },
+ "Ellie Pavlick": {
+  "papers": 50,
+  "papers_with_affiliations": 23,
+  "top_coauthors_not_known_at_brown": [
+   [
+    "Ruochen Zhang",
+    4
+   ],
+   [
+    "Brenden M. Lake",
+    3
+   ],
+   [
+    "Jessica Zosa Forde",
+    2
+   ],
+   [
+    "Lintang Sutawika",
+    2
+   ],
+   [
+    "Alham Fikri Aji",
+    2
+   ],
+   [
+    "Genta Indra Winata",
+    2
+   ],
+   [
+    "Stella Biderman",
+    2
+   ],
+   [
+    "Mayank Jobanputra",
+    2
+   ]
+  ],
+  "top_institutions": [
+   [
+    "Princeton University",
+    2
+   ],
+   [
+    "Hong Kong University of Science and Technology",
+    1
+   ],
+   [
+    "Capital One (United States)",
+    1
+   ],
+   [
+    "Monash University",
+    1
+   ],
+   [
+    "University of Bristol",
+    1
+   ],
+   [
+    "Northeastern University",
+    1
+   ],
+   [
+    "Meta (United States)",
+    1
+   ],
+   [
+    "Meta (United Kingdom)",
+    1
+   ]
+  ],
+  "companies": [
+   [
+    "Capital One (United States)",
+    1
+   ],
+   [
+    "Meta (United States)",
+    1
+   ],
+   [
+    "Meta (United Kingdom)",
+    1
+   ]
+  ]
+ },
+ "George Karniadakis": {
+  "papers": 170,
+  "papers_with_affiliations": 115,
+  "top_coauthors_not_known_at_brown": [
+   [
+    "Zheyuan Hu",
+    10
+   ],
+   [
+    "Kenji Kawaguchi",
+    9
+   ],
+   [
+    "Reza Avazmohammadi",
+    6
+   ],
+   [
+    "Michael S. Triantafyllou",
+    6
+   ],
+   [
+    "Elham Kiyani",
+    6
+   ],
+   [
+    "Douglas H. Kelley",
+    5
+   ],
+   [
+    "Kyle J. Myers",
+    4
+   ],
+   [
+    "Eli Turkel",
+    4
+   ]
+  ],
+  "top_institutions": [
+   [
+    "National University of Singapore",
+    9
+   ],
+   [
+    "Massachusetts Institute of Technology",
+    8
+   ],
+   [
+    "Yale University",
+    5
+   ],
+   [
+    "Texas A&M University",
+    4
+   ],
+   [
+    "University of Rochester",
+    4
+   ],
+   [
+    "Tel Aviv University",
+    4
+   ],
+   [
+    "Sandia National Laboratories",
+    4
+   ],
+   [
+    "Johns Hopkins University",
+    4
+   ]
+  ],
+  "companies": [
+   [
+    "Ansys (United States)",
+    2
+   ],
+   [
+    "Dassault Systèmes (United States)",
+    1
+   ],
+   [
+    "Cummins (United States)",
+    1
+   ],
+   [
+    "Synopsys (United States)",
+    1
+   ],
+   [
+    "Ansys (United Kingdom)",
+    1
+   ],
+   [
+    "IBM (United States)",
+    1
+   ]
+  ]
+ },
+ "George Konidaris": {
+  "papers": 54,
+  "papers_with_affiliations": 18,
+  "top_coauthors_not_known_at_brown": [
+   [
+    "Cameron Allen",
+    5
+   ],
+   [
+    "Ruo Yu Tao",
+    4
+   ],
+   [
+    "Saket Tiwari",
+    3
+   ],
+   [
+    "Mete Tuluhan Akbulut",
+    3
+   ],
+   [
+    "Omer Gottesman",
+    2
+   ],
+   [
+    "Kaicheng Guo",
+    2
+   ],
+   [
+    "Lingfeng Sun",
+    2
+   ],
+   [
+    "Jennifer L. Barry",
+    2
+   ]
+  ],
+  "top_institutions": [
+   [
+    "University of California, Berkeley",
+    2
+   ],
+   [
+    "Google DeepMind (United Kingdom)",
+    2
+   ],
+   [
+    "Columbia University",
+    1
+   ],
+   [
+    "Massachusetts Institute of Technology",
+    1
+   ],
+   [
+    "Robotics and AI Institute",
+    1
+   ],
+   [
+    "Carnegie Mellon University",
+    1
+   ],
+   [
+    "The University of Texas at Austin",
+    1
+   ],
+   [
+    "University of the Witwatersrand",
+    1
+   ]
+  ],
+  "companies": [
+   [
+    "Google DeepMind (United Kingdom)",
+    2
+   ],
+   [
+    "Google (United States)",
+    1
+   ],
+   [
+    "Amazon (United States)",
+    1
+   ]
+  ]
+ },
+ "Harini Suresh": {
+  "papers": 14,
+  "papers_with_affiliations": 9,
+  "top_coauthors_not_known_at_brown": [
+   [
+    "Emily Tseng",
+    3
+   ],
+   [
+    "Emma Pierson",
+    2
+   ],
+   [
+    "Karen E. C. Levy",
+    2
+   ],
+   [
+    "Meg Young",
+    2
+   ],
+   [
+    "Alifia Hasan",
+    1
+   ],
+   [
+    "Katherine C. Kellogg",
+    1
+   ],
+   [
+    "William Ratliff",
+    1
+   ],
+   [
+    "Sara G. Murray",
+    1
+   ]
+  ],
+  "top_institutions": [
+   [
+    "Massachusetts Institute of Technology",
+    3
+   ],
+   [
+    "University of Washington",
+    3
+   ],
+   [
+    "Cornell University",
+    3
+   ],
+   [
+    "University of California, Berkeley",
+    2
+   ],
+   [
+    "Johns Hopkins University",
+    2
+   ],
+   [
+    "Duke University",
+    2
+   ],
+   [
+    "Cornell Tech",
+    2
+   ],
+   [
+    "Microsoft Research New York City (United States)",
+    2
+   ]
+  ],
+  "companies": [
+   [
+    "Microsoft Research New York City (United States)",
+    2
+   ],
+   [
+    "Microsoft (United States)",
+    1
+   ]
+  ]
+ },
+ "Indie Garwood": {
+  "papers": 1,
+  "papers_with_affiliations": 1,
+  "top_coauthors_not_known_at_brown": [
+   [
+    "Jarl Haggerty",
+    1
+   ],
+   [
+    "Qasim Qureshi",
+    1
+   ],
+   [
+    "Ellie D. Gabriel",
+    1
+   ],
+   [
+    "Pedro GLB Borges",
+    1
+   ],
+   [
+    "Pierce Davis",
+    1
+   ],
+   [
+    "Katie Wingel",
+    1
+   ],
+   [
+    "Jerry Cai",
+    1
+   ],
+   [
+    "Krishna Sargur",
+    1
+   ]
+  ],
+  "top_institutions": [
+   [
+    "University of Pennsylvania",
+    1
+   ],
+   [
+    "Philadelphia VA Medical Center",
+    1
+   ]
+  ],
+  "companies": []
+ },
+ "James Tompkin": {
+  "papers": 22,
+  "papers_with_affiliations": 16,
+  "top_coauthors_not_known_at_brown": [
+   [
+    "Min H. Kim",
+    3
+   ],
+   [
+    "Jiamin Xu",
+    2
+   ],
+   [
+    "Weiwei Xu",
+    2
+   ],
+   [
+    "Christian Richardt",
+    2
+   ],
+   [
+    "Matthew O’Toole",
+    2
+   ],
+   [
+    "Hakyeong Kim",
+    2
+   ],
+   [
+    "Qi Wang",
+    1
+   ],
+   [
+    "Zheng Dong",
+    1
+   ]
+  ],
+  "top_institutions": [
+   [
+    "Korea Advanced Institute of Science and Technology",
+    3
+   ],
+   [
+    "Hangzhou Dianzi University",
+    2
+   ],
+   [
+    "Zhejiang University",
+    2
+   ],
+   [
+    "Carnegie Mellon University",
+    2
+   ],
+   [
+    "Meta (United States)",
+    2
+   ],
+   [
+    "The Ohio State University",
+    1
+   ],
+   [
+    "Zhejiang Sci-Tech University",
+    1
+   ],
+   [
+    "Zhejiang Lab",
+    1
+   ]
+  ],
+  "companies": [
+   [
+    "Meta (United States)",
+    2
+   ],
+   [
+    "Ant Group (China)",
+    1
+   ],
+   [
+    "Nvidia (United States)",
+    1
+   ],
+   [
+    "Nvidia (United Kingdom)",
+    1
+   ]
+  ]
+ },
+ "Jérôme Darbon": {
+  "papers": 25,
+  "papers_with_affiliations": 18,
+  "top_coauthors_not_known_at_brown": [
+   [
+    "Tingwei Meng",
+    5
+   ],
+   [
+    "Gabriel P. Langlois",
+    5
+   ],
+   [
+    "Peter Yichen Chen",
+    3
+   ],
+   [
+    "Jatan Buch",
+    2
+   ],
+   [
+    "Michael S. Triantafyllou",
+    1
+   ],
+   [
+    "Nick-Marios T. Kokolakis",
+    1
+   ],
+   [
+    "Kyriakos G. Vamvoudakis",
+    1
+   ],
+   [
+    "Jorge F. Urbán",
+    1
+   ]
+  ],
+  "top_institutions": [
+   [
+    "University of California, Los Angeles",
+    4
+   ],
+   [
+    "Naval Air Warfare Center Weapons Division",
+    2
+   ],
+   [
+    "New York University",
+    2
+   ],
+   [
+    "Courant Institute of Mathematical Sciences",
+    2
+   ],
+   [
+    "Columbia University",
+    2
+   ],
+   [
+    "Massachusetts Institute of Technology",
+    1
+   ],
+   [
+    "University of Pennsylvania",
+    1
+   ],
+   [
+    "Georgia Institute of Technology",
+    1
+   ]
+  ],
+  "companies": [
+   [
+    "Orange (France)",
+    1
+   ]
+  ]
+ },
+ "Karianne Bergen": {
+  "papers": 11,
+  "papers_with_affiliations": 4,
+  "top_coauthors_not_known_at_brown": [
+   [
+    "Sophie Nowicki",
+    2
+   ],
+   [
+    "Hélène Seroussi",
+    2
+   ],
+   [
+    "Helene Theresa Hewitt",
+    1
+   ]
+  ],
+  "top_institutions": [
+   [
+    "University at Buffalo, State University of New York",
+    2
+   ],
+   [
+    "Dartmouth College",
+    2
+   ],
+   [
+    "Met Office",
+    1
+   ]
+  ],
+  "companies": []
+ },
+ "Khemraj Shukla": {
+  "papers": 34,
+  "papers_with_affiliations": 18,
+  "top_coauthors_not_known_at_brown": [
+   [
+    "Michael S. Triantafyllou",
+    3
+   ],
+   [
+    "Luis G. Bravo",
+    3
+   ],
+   [
+    "Anindya Ghoshal",
+    3
+   ],
+   [
+    "Elham Kiyani",
+    2
+   ],
+   [
+    "Jorge F. Urbán",
+    2
+   ],
+   [
+    "M. Laudato",
+    2
+   ],
+   [
+    "Luca Manzari",
+    2
+   ],
+   [
+    "Nicholas Plewacki",
+    2
+   ]
+  ],
+  "top_institutions": [
+   [
+    "Massachusetts Institute of Technology",
+    2
+   ],
+   [
+    "University of Alicante",
+    2
+   ],
+   [
+    "Westlake University",
+    1
+   ],
+   [
+    "MIT Sea Grant",
+    1
+   ],
+   [
+    "University of Central Florida",
+    1
+   ],
+   [
+    "Coastal and Hydraulics Laboratory",
+    1
+   ],
+   [
+    "U.S. Army Engineer Research and Development Center",
+    1
+   ],
+   [
+    "The University of Texas at Austin",
+    1
+   ]
+  ],
+  "companies": []
+ },
+ "Larry Han": {
+  "papers": 39,
+  "papers_with_affiliations": 38,
+  "top_coauthors_not_known_at_brown": [
+   [
+    "Sharon‐Lise T. Normand",
+    8
+   ],
+   [
+    "Tianxi Cai",
+    6
+   ],
+   [
+    "Levis, Alexander W.",
+    6
+   ],
+   [
+    "Peter B. Gilbert",
+    6
+   ],
+   [
+    "Yi Liu",
+    5
+   ],
+   [
+    "Meena Nathan",
+    5
+   ],
+   [
+    "John Eleanor Mayer",
+    5
+   ],
+   [
+    "Sara K. Pasquali",
+    5
+   ]
+  ],
+  "top_institutions": [
+   [
+    "Harvard University",
+    19
+   ],
+   [
+    "North Carolina State University",
+    7
+   ],
+   [
+    "Fred Hutch Cancer Center",
+    6
+   ],
+   [
+    "Boston Children's Hospital",
+    5
+   ],
+   [
+    "Carnegie Mellon University",
+    4
+   ],
+   [
+    "C. S. Mott Children's Hospital",
+    4
+   ],
+   [
+    "University of Pennsylvania",
+    4
+   ],
+   [
+    "Cape Town HVTN Immunology Laboratory / Hutchinson Centre Research Institute of South Africa",
+    3
+   ]
+  ],
+  "companies": [
+   [
+    "Novo Nordisk (Denmark)",
+    1
+   ]
+  ]
+ },
+ "Leo Kozachkov": {
+  "papers": 14,
+  "papers_with_affiliations": 8,
+  "top_coauthors_not_known_at_brown": [
+   [
+    "Ila Fiete",
+    4
+   ],
+   [
+    "X. Gonzalez",
+    4
+   ],
+   [
+    "David M. Zoltowski",
+    4
+   ],
+   [
+    "Scott W. Linderman",
+    4
+   ],
+   [
+    "Adam J. Eisen",
+    3
+   ],
+   [
+    "Mitchell Ostrow",
+    3
+   ],
+   [
+    "Sarthak Chandra",
+    2
+   ],
+   [
+    "Earl K. Miller",
+    2
+   ]
+  ],
+  "top_institutions": [
+   [
+    "Massachusetts Institute of Technology",
+    6
+   ],
+   [
+    "Harvard University",
+    2
+   ],
+   [
+    "IBM (United States)",
+    2
+   ],
+   [
+    "Stanford University",
+    2
+   ],
+   [
+    "Massachusetts General Hospital",
+    1
+   ],
+   [
+    "Boston University",
+    1
+   ],
+   [
+    "Vanderbilt University",
+    1
+   ],
+   [
+    "McGovern Institute for Brain Research",
+    1
+   ]
+  ],
+  "companies": [
+   [
+    "IBM (United States)",
+    2
+   ]
+  ]
+ },
+ "Lorin Crawford": {
+  "papers": 35,
+  "papers_with_affiliations": 28,
+  "top_coauthors_not_known_at_brown": [
+   [
+    "Ava P. Amini",
+    14
+   ],
+   [
+    "Srivatsan Raghavan",
+    7
+   ],
+   [
+    "Peter S. Winter",
+    7
+   ],
+   [
+    "Madeline Hughes",
+    6
+   ],
+   [
+    "James Hall",
+    5
+   ],
+   [
+    "Alex X Lu",
+    5
+   ],
+   [
+    "Andrew W. Navia",
+    4
+   ],
+   [
+    "Eric Zimmermann",
+    4
+   ]
+  ],
+  "top_institutions": [
+   [
+    "Microsoft (United States)",
+    14
+   ],
+   [
+    "Harvard University",
+    7
+   ],
+   [
+    "Dana-Farber Cancer Institute",
+    7
+   ],
+   [
+    "Microsoft Research New England (United States)",
+    7
+   ],
+   [
+    "Broad Institute",
+    7
+   ],
+   [
+    "Brigham and Women's Hospital",
+    5
+   ],
+   [
+    "University of Toronto",
+    3
+   ],
+   [
+    "Georgia Institute of Technology",
+    2
+   ]
+  ],
+  "companies": [
+   [
+    "Microsoft (United States)",
+    14
+   ],
+   [
+    "Microsoft Research New England (United States)",
+    7
+   ]
+  ]
+ },
+ "Michael J. Frank": {
+  "papers": 39,
+  "papers_with_affiliations": 32,
+  "top_coauthors_not_known_at_brown": [
+   [
+    "Megan A. Boudewyn",
+    3
+   ],
+   [
+    "Cameron S. Carter",
+    3
+   ],
+   [
+    "Molly A. Erickson",
+    3
+   ],
+   [
+    "James Gold",
+    3
+   ],
+   [
+    "Steven J. Luck",
+    3
+   ],
+   [
+    "John Daniel Ragland",
+    3
+   ],
+   [
+    "Andrew P. Yonelinas",
+    3
+   ],
+   [
+    "Angus W. MacDonald",
+    3
+   ]
+  ],
+  "top_institutions": [
+   [
+    "McLean Hospital",
+    5
+   ],
+   [
+    "Harvard University",
+    4
+   ],
+   [
+    "University of Amsterdam",
+    3
+   ],
+   [
+    "Washington University in St. Louis",
+    3
+   ],
+   [
+    "University of Minnesota",
+    3
+   ],
+   [
+    "Indiana University",
+    2
+   ],
+   [
+    "University of Newcastle Australia",
+    2
+   ],
+   [
+    "Indiana University Bloomington",
+    2
+   ]
+  ],
+  "companies": []
+ },
+ "Michael Littman": {
+  "papers": 10,
+  "papers_with_affiliations": 4,
+  "top_coauthors_not_known_at_brown": [
+   [
+    "Blase Ur",
+    2
+   ],
+   [
+    "Guibin Zhang",
+    1
+   ],
+   [
+    "He-Jia Geng",
+    1
+   ],
+   [
+    "Xiaohan Yu",
+    1
+   ],
+   [
+    "Zhenfei Yin",
+    1
+   ],
+   [
+    "Zelin Tan",
+    1
+   ],
+   [
+    "Heng Zhou",
+    1
+   ],
+   [
+    "Xiangyuan Xue",
+    1
+   ]
+  ],
+  "top_institutions": [
+   [
+    "University of Chicago",
+    2
+   ],
+   [
+    "Carnegie Mellon University",
+    1
+   ],
+   [
+    "University of Southampton",
+    1
+   ]
+  ],
+  "companies": []
+ },
+ "Miguel Bessa": {
+  "papers": 23,
+  "papers_with_affiliations": 16,
+  "top_coauthors_not_known_at_brown": [
+   [
+    "Aleksandr Dekhovich",
+    3
+   ],
+   [
+    "Suryanarayanan Manoj Sanu",
+    3
+   ],
+   [
+    "Alejandro M. Aragón",
+    3
+   ],
+   [
+    "Jiaxiang Yi",
+    3
+   ],
+   [
+    "David M. J. Tax",
+    2
+   ],
+   [
+    "Marcel H. F. Sluiter",
+    2
+   ],
+   [
+    "Rui Barreira",
+    2
+   ],
+   [
+    "Taylan Soydan",
+    2
+   ]
+  ],
+  "top_institutions": [
+   [
+    "Delft University of Technology",
+    9
+   ],
+   [
+    "University of Pennsylvania",
+    1
+   ],
+   [
+    "Georgia Institute of Technology",
+    1
+   ],
+   [
+    "University of California, Los Angeles",
+    1
+   ],
+   [
+    "Johns Hopkins University",
+    1
+   ],
+   [
+    "University of Michigan",
+    1
+   ],
+   [
+    "Pennsylvania State University",
+    1
+   ],
+   [
+    "University of Houston",
+    1
+   ]
+  ],
+  "companies": []
+ },
+ "Nora Ayanian": {
+  "papers": 10,
+  "papers_with_affiliations": 5,
+  "top_coauthors_not_known_at_brown": [
+   [
+    "Sven Koenig",
+    3
+   ],
+   [
+    "Jingyao Ren",
+    2
+   ],
+   [
+    "T. K. Satish Kumar",
+    2
+   ],
+   [
+    "Kegan J. Strawn",
+    1
+   ],
+   [
+    "Thomy Phan",
+    1
+   ],
+   [
+    "Eric Wang",
+    1
+   ],
+   [
+    "L. Lindemann",
+    1
+   ],
+   [
+    "Mattia Catellani",
+    1
+   ]
+  ],
+  "top_institutions": [
+   [
+    "University of Southern California",
+    1
+   ],
+   [
+    "University of Modena and Reggio Emilia",
+    1
+   ]
+  ],
+  "companies": []
+ },
+ "Pedro Felzenszwalb": {
+  "papers": 2,
+  "papers_with_affiliations": 1,
+  "top_coauthors_not_known_at_brown": [],
+  "top_institutions": [],
+  "companies": []
+ },
+ "Randall Balestriero": {
+  "papers": 91,
+  "papers_with_affiliations": 9,
+  "top_coauthors_not_known_at_brown": [
+   [
+    "Yann LeCun",
+    22
+   ],
+   [
+    "Richard G. Baraniuk",
+    7
+   ],
+   [
+    "David Alexander Klindt",
+    7
+   ],
+   [
+    "Mark Ibrahim",
+    6
+   ],
+   [
+    "Lucas Maes",
+    6
+   ],
+   [
+    "Ahmed Imtiaz Humayun",
+    6
+   ],
+   [
+    "Hai Huang",
+    5
+   ],
+   [
+    "Quentin Le Lidec",
+    5
+   ]
+  ],
+  "top_institutions": [
+   [
+    "Université de Toulon",
+    2
+   ],
+   [
+    "Toulon Var Technologies (France)",
+    2
+   ],
+   [
+    "Rice University",
+    2
+   ],
+   [
+    "Genentech",
+    2
+   ],
+   [
+    "Copenhagen University Hospital",
+    1
+   ],
+   [
+    "Rigshospitalet",
+    1
+   ],
+   [
+    "Copenhagen Academy for Medical Education and Simulation",
+    1
+   ],
+   [
+    "Technical University of Denmark",
+    1
+   ]
+  ],
+  "companies": [
+   [
+    "Toulon Var Technologies (France)",
+    2
+   ],
+   [
+    "Genentech",
+    2
+   ]
+  ]
+ },
+ "Serena Booth": {
+  "papers": 12,
+  "papers_with_affiliations": 6,
+  "top_coauthors_not_known_at_brown": [
+   [
+    "Tiffany Horter",
+    3
+   ],
+   [
+    "W. B. Knox",
+    3
+   ],
+   [
+    "Matthew Edmund Taylor",
+    2
+   ],
+   [
+    "Stephane Hatgis-Kessell",
+    2
+   ],
+   [
+    "Peter Stone",
+    2
+   ],
+   [
+    "Scott Niekum",
+    2
+   ],
+   [
+    "Andrew Markham",
+    2
+   ],
+   [
+    "Niki Trigoni",
+    2
+   ]
+  ],
+  "top_institutions": [
+   [
+    "University of Oxford",
+    2
+   ],
+   [
+    "University of Southern California",
+    2
+   ],
+   [
+    "State of Colorado",
+    1
+   ],
+   [
+    "Georgia Institute of Technology",
+    1
+   ],
+   [
+    "University of Alberta",
+    1
+   ],
+   [
+    "Idiap Research Institute",
+    1
+   ],
+   [
+    "Tufts University",
+    1
+   ],
+   [
+    "University of Washington",
+    1
+   ]
+  ],
+  "companies": [
+   [
+    "Google (United States)",
+    1
+   ]
+  ]
+ },
+ "Srinath Sridhar": {
+  "papers": 34,
+  "papers_with_affiliations": 22,
+  "top_coauthors_not_known_at_brown": [
+   [
+    "Arnab Dey",
+    3
+   ],
+   [
+    "Andrew I. Comport",
+    3
+   ],
+   [
+    "Ligang Liu",
+    2
+   ],
+   [
+    "Chuan Guo",
+    2
+   ],
+   [
+    "Abhay Mittal",
+    2
+   ],
+   [
+    "Sizhe An",
+    2
+   ],
+   [
+    "Ishaan Nikhil Shah",
+    2
+   ],
+   [
+    "Md Faizal Karim",
+    2
+   ]
+  ],
+  "top_institutions": [
+   [
+    "International Institute of Information Technology, Hyderabad",
+    5
+   ],
+   [
+    "Meta (United States)",
+    4
+   ],
+   [
+    "Massachusetts Institute of Technology",
+    3
+   ],
+   [
+    "Centre National de la Recherche Scientifique",
+    3
+   ],
+   [
+    "Laboratoire d'Informatique, Signaux et Systèmes de Sophia Antipolis",
+    3
+   ],
+   [
+    "University of Technology Sydney",
+    2
+   ],
+   [
+    "Amazon (United States)",
+    2
+   ],
+   [
+    "Columbia University",
+    1
+   ]
+  ],
+  "companies": [
+   [
+    "Meta (United States)",
+    4
+   ],
+   [
+    "Amazon (United States)",
+    2
+   ]
+  ]
+ },
+ "Stefanie Tellex": {
+  "papers": 27,
+  "papers_with_affiliations": 12,
+  "top_coauthors_not_known_at_brown": [
+   [
+    "Raymond J. Mooney",
+    4
+   ],
+   [
+    "Robin Walters",
+    3
+   ],
+   [
+    "Yichen Wei",
+    3
+   ],
+   [
+    "Hai Huang",
+    2
+   ],
+   [
+    "Chenghao Wang",
+    2
+   ],
+   [
+    "Linfeng Zhao",
+    2
+   ],
+   [
+    "Dian Wang",
+    2
+   ],
+   [
+    "Robert Platt",
+    2
+   ]
+  ],
+  "top_institutions": [
+   [
+    "Northeastern University",
+    2
+   ],
+   [
+    "Robotics and AI Institute",
+    2
+   ],
+   [
+    "The University of Texas at Austin",
+    2
+   ],
+   [
+    "University of North Carolina at Chapel Hill",
+    1
+   ]
+  ],
+  "companies": []
+ },
+ "Stephen Bach": {
+  "papers": 20,
+  "papers_with_affiliations": 9,
+  "top_coauthors_not_known_at_brown": [
+   [
+    "Julia Kreutzer",
+    2
+   ],
+   [
+    "Martha Lewis",
+    1
+   ],
+   [
+    "George Zerveas",
+    1
+   ],
+   [
+    "B. Ermi̇ş",
+    1
+   ],
+   [
+    "Marzieh Fadaee",
+    1
+   ],
+   [
+    "Ryan Smith",
+    1
+   ],
+   [
+    "Jason Fries",
+    1
+   ],
+   [
+    "Braden Hancock",
+    1
+   ]
+  ],
+  "top_institutions": [
+   [
+    "University of Bristol",
+    1
+   ],
+   [
+    "Microsoft (United States)",
+    1
+   ],
+   [
+    "Stanford University",
+    1
+   ]
+  ],
+  "companies": [
+   [
+    "Microsoft (United States)",
+    1
+   ]
+  ]
+ },
+ "Suresh Venkatasubramanian": {
+  "papers": 25,
+  "papers_with_affiliations": 7,
+  "top_coauthors_not_known_at_brown": [
+   [
+    "Victor Ojewale",
+    4
+   ],
+   [
+    "Daniel E. Ho",
+    2
+   ],
+   [
+    "Hima Lakkaraju",
+    2
+   ],
+   [
+    "Aravinda Kanchana Ruwanpathirana",
+    2
+   ],
+   [
+    "Solon Barocas",
+    2
+   ],
+   [
+    "Inioluwa Deborah Raji",
+    2
+   ],
+   [
+    "Rishi Bommasani",
+    1
+   ],
+   [
+    "Sanjeev Arora",
+    1
+   ]
+  ],
+  "top_institutions": [
+   [
+    "Stanford University",
+    2
+   ],
+   [
+    "University of California, Berkeley",
+    1
+   ],
+   [
+    "Princeton University",
+    1
+   ],
+   [
+    "Centre Inria de Saclay",
+    1
+   ],
+   [
+    "Stanford Institute for Economic Policy Research",
+    1
+   ],
+   [
+    "Institute for Advanced Study",
+    1
+   ],
+   [
+    "University of Oxford",
+    1
+   ],
+   [
+    "Harvard University",
+    1
+   ]
+  ],
+  "companies": [
+   [
+    "Microsoft Research New York City (United States)",
+    1
+   ]
+  ]
+ },
+ "Thomas Serre": {
+  "papers": 30,
+  "papers_with_affiliations": 19,
+  "top_coauthors_not_known_at_brown": [
+   [
+    "Rufin VanRullen",
+    5
+   ],
+   [
+    "Thomas Fel",
+    4
+   ],
+   [
+    "Julien Colin",
+    3
+   ],
+   [
+    "Nuria Oliver",
+    3
+   ],
+   [
+    "Louis Béthune",
+    2
+   ],
+   [
+    "A. Alamia",
+    2
+   ],
+   [
+    "L. Goetschalckx",
+    2
+   ],
+   [
+    "Matthew D. Kowal",
+    1
+   ]
+  ],
+  "top_institutions": [
+   [
+    "Centre National de la Recherche Scientifique",
+    4
+   ],
+   [
+    "Centre de recherche cerveau et cognition",
+    4
+   ],
+   [
+    "University of Rochester",
+    1
+   ],
+   [
+    "Moffitt Cancer Center",
+    1
+   ],
+   [
+    "New York University",
+    1
+   ],
+   [
+    "York University",
+    1
+   ],
+   [
+    "Harvard University",
+    1
+   ],
+   [
+    "Google DeepMind (United Kingdom)",
+    1
+   ]
+  ],
+  "companies": [
+   [
+    "Google DeepMind (United Kingdom)",
+    1
+   ],
+   [
+    "Apple (United States)",
+    1
+   ]
+  ]
+ },
+ "Uğur Çetintemel": {
+  "papers": 12,
+  "papers_with_affiliations": 11,
+  "top_coauthors_not_known_at_brown": [
+   [
+    "Andrew Crotty",
+    4
+   ],
+   [
+    "Maliha R. Imami",
+    2
+   ],
+   [
+    "Harrison Xiao Bai",
+    2
+   ],
+   [
+    "Zhicheng Jiao",
+    2
+   ]
+  ],
+  "top_institutions": [
+   [
+    "Northwestern University",
+    4
+   ],
+   [
+    "Johns Hopkins University",
+    2
+   ],
+   [
+    "Johns Hopkins Medicine",
+    2
+   ],
+   [
+    "Johns Hopkins Hospital",
+    2
+   ]
+  ],
+  "companies": []
+ },
+ "Yu Cheng": {
+  "papers": 3,
+  "papers_with_affiliations": 0,
+  "top_coauthors_not_known_at_brown": [
+   [
+    "Yixuan Even Xu",
+    1
+   ],
+   [
+    "Hao Zhang",
+    1
+   ],
+   [
+    "Vincent Conitzer",
+    1
+   ]
+  ],
+  "top_institutions": [],
+  "companies": []
+ }
+}

@@ -1,0 +1,71 @@
+action,pid,detail,title
+merged_duplicate,5,901,A path for science-and evidence-based AI policy
+merged_duplicate,23,516,Model-based EEG phenotyping uncovers distinct neurocomputational mechanisms underlying lea
+merged_duplicate,23,813,Dissecting Neurocomputational Mechanisms of Impaired Instrumental Learning Across Psychopa
+merged_duplicate,26,527,Interpolating neural network: A novel unification of machine learning and interpolation th
+merged_duplicate,31,523,Auditory Perceptual Biases in Schizophrenia: A Case-Control Study Using Sine-Wave Speech
+merged_duplicate,40,913,Flow Inference and Turbulence Closure of Flow Past a Cylinder using PINNs
+merged_duplicate,40,923,Flow Inference and Turbulence Closure of Flow Past a Cylinder using PINNs and Data-Driven 
+merged_duplicate,57,539,Sustainability assessment using multimodal AI agents
+merged_duplicate,57,870,Towards autonomous sustainability assessment via multimodal AI agents
+merged_duplicate,83,580,Multi-Modality Deep Infarct: Non-invasive identification of infarcted myocardium using com
+merged_duplicate,88,926,Large Scale Scattering Using Fast Solvers Based on Neural Operators
+merged_duplicate,88,927,Ultra-Fast Meta-Solvers for 3d Scattering Problems Using Neural Operators Trained as Found
+merged_duplicate,89,553,"Striatal Dopamine Can Enhance Learning, Both Fast and Slow, and Also Make it Cheaper"
+merged_duplicate,92,560,A knockoff calibration method to avoid over-clustering in single-cell RNA-sequencing
+merged_duplicate,105,559,In Silico Post-screening of Anti-polymerization Agents to Treat Sickle Cell Disease
+merged_duplicate,138,659,Quantifying the Biophysical Properties of Red Blood Cells in Gaucher Disease
+merged_duplicate,149,564,Incorporation of Epstein-Barr viral variation implicates significance of LMP1 in survival 
+merged_duplicate,159,874,Versatile action models (vamos) for video understanding
+merged_duplicate,162,163,Inferring turbulent velocity and temperature fields and their statistics from Lagrangian v
+merged_duplicate,166,613,Distinct basal ganglia decision dynamics under conflict and uncertainty
+merged_duplicate,180,601,Hierarchical cross-entropy loss improves atlas-scale single-cell annotation models
+merged_duplicate,185,612,FabHacks: Transform Everyday Objects into Functional Fixtures
+merged_duplicate,205,928,Which Optimizer Works Best for Physics-Informed Neural Networks and Kolmogorov-Arnold Netw
+merged_duplicate,235,916,GenAI meets Turbulence: From Super-resolution to Forecasting and Full Field Reconstruction
+merged_duplicate,251,624,Complex Valued Deep Operator Network (DeepONet) $[\mathcal{G}]$ for Three Dimensional Maxw
+merged_duplicate,265,929,Insights from Auditing AI Chatbots for Survivors of Domestic Violence
+merged_duplicate,267,274,Genetic Data Governance in Crisis: Policy Recommendations for Safeguarding Privacy and Pre
+merged_duplicate,339,849,From Language to Action with Object-Level Planning
+merged_duplicate,349,930,Distinguishing Predictive and Generative AI in Regulation
+merged_duplicate,390,885,For perception tasks: The cost of llm pretraining by next-token prediction outweigh its be
+merged_duplicate,417,742,The dynamic interplay between in-context and in-weight learning in humans and neural netwo
+merged_duplicate,429,871,EHOP: A dataset of everyday NP-hard optimization problems
+merged_duplicate,437,866,Steady and Unsteady Downwash Effects in Multirotor Interactions
+merged_duplicate,460,731,Is All Learning (Natural) Gradient Descent?
+merged_duplicate,497,789,Designing for Doubt: The Case for Informed Abstention in Autonomous Agents
+merged_duplicate,509,512,Bridging Predictions and Interventions: An Integrated Framework for Automated Decision-Sys
+merged_duplicate,547,897,Siftom: Robust spoken instruction following through theory of mind
+merged_duplicate,585,829,Beyond Task and Motion Planning: Hierarchical Robot Planning with General-Purpose Skills
+merged_duplicate,591,884,Stress-testing offline reward-free reinforcement learning: A case for planning with latent
+merged_duplicate,641,865,Distributed Connectivity Maintenance and Recovery for Quadrotor Motion Planning
+merged_duplicate,642,886,ScaLES: Scalable Latent Exploration Score for Pre-Trained Generative Networks
+merged_duplicate,661,912,High-resolution wind fields for operational methane monitoring at oil and gas sites
+merged_duplicate,739,752,How Working Memory and Reinforcement Learning Interact when Avoiding Punishment and Pursui
+merged_duplicate,745,774,ML-MAGES: A machine learning framework for multivariate genetic association analyses with 
+merged_duplicate,747,890,Anomaly Detection In The Wild: Can SSL Handle Strong Distribution Imbalances?
+merged_duplicate,791,857,Safe Cross-Entropy importance sampling for extremely small failure probabilities
+merged_duplicate,825,832,Remapping Through Direct Interpolation and Optimization for Finite Element ALE Hydrodynami
+merged_duplicate,830,861,The Sterkfontein Caves Dataset
+audit_fix,362,"{""sub"": ""0x"", ""is_ai"": false}",Time-averaged drift approximations are inconsistent for inference in drift diffusion model
+audit_fix,391,"{""sub"": ""0x"", ""is_ai"": false}",Multiscale Super Resolution without Image Priors
+audit_fix,811,"{""sub"": ""9f"", ""is_ai"": true}",Perilesional neuromodulation replaces lost sensorimotor function in persons with spinal co
+audit_fix,41,"{""attribution_ok"": true}",From lectures to learning outcomes: meaningful integration of AI-generated content in pre-
+dropped,909,,Unbiased sorting and sequencing of objects via randomized gating schemes
+dropped,911,,A GPU-Accelerated Spectral Element Phase-Field Method for Three-Dimensional Flow Boiling S
+audit_fix,786,"{""sub"": ""8f""}","Beyond gradients: Factorized, geometric control of interference and generalization"
+audit_fix,518,"{""sub"": ""9x""}",Predictive Cellular Signatures from Live Human Motor Neurons Distinguish TDP-43 ALS and En
+audit_fix,701,"{""sub"": ""2f""}",A Geometric View of Counterfactual Behavior: Interaction of Boundary Proximity and Local S
+audit_fix,823,"{""sub"": ""5h""}",Find it like a dog: Using Gesture to Improve Object Search
+not_ai_to_0x,192,4c,Polynomial-Time Program Equivalence for Machine Knitting
+not_ai_to_0x,225,4c,WasteBanned: Supporting Zero Waste Fashion Design Through Linked Edits
+not_ai_to_0x,230,7d,The latent variable proximal point algorithm for variational problems with inequality cons
+not_ai_to_0x,233,4c,Computational Illusion Knitting
+not_ai_to_0x,506,3f,Deconvolution with a Box
+not_ai_to_0x,629,7d,The proximal Galerkin method for non-symmetric variational inequalities
+not_ai_to_0x,633,7d,Proximal Discontinuous Galerkin Methods for Variational Inequalities
+not_ai_to_0x,641,5e,Connectivity Maintenance and Recovery for Multi-Robot Motion Planning
+not_ai_to_0x,646,2e,Exponential Adaptive Smoothing and Importance Sampling for Optimization of the Conditional
+not_ai_to_0x,663,7d,The SiMPL Method for Multi-Material Topology Optimization
+not_ai_to_0x,685,5e,Robust Trajectory Generation and Control for Quadrotor Motion Planning with Field-of-View 
+not_ai_to_0x,699,9b,Sparse modeling of interactions enables fast detection of genome-wide epistasis in biobank

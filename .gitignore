@@ -1,0 +1,9 @@
+cache/
+__pycache__/
+*.out
+*.log
+.DS_Store
+papers.jsonl
+papers_clean.jsonl
+papers_labeled.jsonl
+papers_new.jsonl
